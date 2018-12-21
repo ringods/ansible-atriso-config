@@ -1,4 +1,3 @@
 ---
 
-- src: https://github.com/superlumic/ansible-role-homebrew.git
-  name: roderik.superlumic-homebrew
+- src: elliotweiser.osx-command-line-tools

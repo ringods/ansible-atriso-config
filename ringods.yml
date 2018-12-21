@@ -3,9 +3,5 @@
 - hosts: localhost
   connection: local
 
-  tasks:
-    - name: homebrew taps
-      homebrew_tap: tap={{ item }} state=present
-      with_items:
-        - homebrew/cask-eid
-        - homebrew/cask-fonts
+  roles:
+    - role: elliotweiser.osx-command-line-tools
