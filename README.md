@@ -1,6 +1,6 @@
 # macos-config
 
-Automated setup of my MacOS system(s) based on [Superlumic](https://github.com/superlumic)
+[![Travis CI - `master`](https://travis-ci.org/ringods/macos-config.svg?branch=master)](https://travis-ci.org/ringods/macos-config)
 
-In my setup, I softlinked `roderik.yml` to my own user file to not require changes in 
-the `superlumic` script when running on Travis.
+Ansible driven MacOS configuration automation. Initial inspiration from [Superlumic](https://github.com/superlumic)
+but went with a more purer Ansible driven setup similar to [geerlingguy/mac-dev-playbook](https://github.com/geerlingguy/mac-dev-playbook).
