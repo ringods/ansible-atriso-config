@@ -5,3 +5,5 @@
 
   roles:
     - role: elliotweiser.osx-command-line-tools
+    - role: geerlingguy.homebrew
+      tags: ['homebrew']
