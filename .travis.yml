@@ -38,7 +38,7 @@ script:
   - "ansible-galaxy install -r requirements.yml"
 
   # Check the role/playbook's syntax.
-  - "ansible-playbook main.yml --syntax-check"
+  - "ansible-playbook ringods.yml --syntax-check"
 
   # Test the playbook.
   - "travis_wait 30 ansible-playbook --extra-vars '{\"configure_sudoers\":\"false\"}' ringods.yml"
