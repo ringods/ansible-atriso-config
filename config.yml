@@ -35,4 +35,5 @@ homebrew_cask_apps:
   - firefox
   - slack
   - vagrant
+  - visual-studio-code
 
