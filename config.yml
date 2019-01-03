@@ -44,6 +44,7 @@ homebrew_cask_apps:
   - iterm2
   - keybase
   - little-snitch
+  - micro-snitch
   - multifirefox
   - slack
   - sourcetree
