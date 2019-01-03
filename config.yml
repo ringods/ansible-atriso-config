@@ -30,15 +30,24 @@ homebrew_taps:
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
+  - alfred
+  - balenaetcher
   - dash
+  - discord
   - dropbox
   - duet
   - firefox
+  - focus
+  - gitter
+  - insomnia
   - istat-menus
   - iterm2
+  - keybase
+  - little-snitch
   - multifirefox
   - slack
   - sourcetree
+  - telegram
   - trainerroad
   - vagrant
   - virtualbox
@@ -68,7 +77,7 @@ mas_installed_apps:
   - { id: 409201541, name: "Pages" }
   - { id: 403504866, name: "PCalc" }
   - { id: 407963104, name: "Pixelmator" }
-#  - { id: 1384080005, name: "Tweetbot 3 for Twitter" }
+  - { id: 1384080005, name: "Tweetbot 3 for Twitter" }
   - { id: 810962929, name: "Writer - Online Word Processor" }
   - { id: 497799835, name: "XCode" }
 mas_upgrade_all_apps: no
