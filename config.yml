@@ -32,8 +32,20 @@ homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
   - dash
   - dropbox
+  - duet
   - firefox
+  - istat-menus
+  - iterm2
   - slack
+  - sourcetree
+  - trainerroad
   - vagrant
+  - virtualbox
+  - virtualbox-extension-pack
+  - viscosity
   - visual-studio-code
-
+  - vlc
+  - whatsapp
+  - wifi-explorer
+  - zoho-docs
+  - zoomus
