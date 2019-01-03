@@ -13,3 +13,4 @@
     - role: geerlingguy.mas
       when: mas_installed_apps
       tags: ['appstore']
+    - role: fubarhouse.macdock

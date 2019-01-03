@@ -85,3 +85,39 @@ mas_installed_apps:
   - { id: 497799835, name: "XCode" }
 mas_upgrade_all_apps: no
 mas_signin_dialog: no
+
+dockutil_url: https://raw.githubusercontent.com/kcrawford/dockutil/master/scripts/dockutil
+dockutil_install_path: /usr/local/bin/dockutil
+
+dockitems_remove_all: false
+
+dockitems_disabled:
+  - Mail
+  - Safari
+  - Siri
+  - Contacts
+  - Notes
+  - Reminders
+  - Maps
+  - Photos
+  - Messages
+  - FaceTime
+  - iTunes
+  - App Store
+  - System Preferences
+  - Calendar
+  - Terminal
+
+dockitems_enabled:
+  - name: Launchpad
+    path: "/Applications/Launchpad.app"
+    pos: 1
+  - name: Airmail 3
+    path: "/Applications/Airmail 3.app"
+    pos: 2
+  - name: MultiFirefox
+    path: "/Applications/MultiFirefox.app"
+    pos: 3
+  - name: Tweetbot
+    path: "/Applications/Tweetbot.app"
+    pos: 4
