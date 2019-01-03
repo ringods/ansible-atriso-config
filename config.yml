@@ -4,7 +4,6 @@ homebrew_installed_packages:
   - awscli
   - cfssl
   - curl
-  - delve
   - dep
   - direnv
   - elixir
