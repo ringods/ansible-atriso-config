@@ -49,3 +49,10 @@ homebrew_cask_apps:
   - wifi-explorer
   - zoho-docs
   - zoomus
+
+mas_email: ""
+mas_password: ""
+mas_installed_apps:
+  - { id: 411643860, name: "DaisyDisk (4.3.2)" }
+mas_upgrade_all_apps: no
+mas_signin_dialog: no

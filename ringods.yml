@@ -10,3 +10,5 @@
     - role: elliotweiser.osx-command-line-tools
     - role: geerlingguy.homebrew
       tags: ['homebrew']
+    - role: geerlingguy.mas
+      tags: ['appstore']
