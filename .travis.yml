@@ -41,11 +41,11 @@ script:
   - "ansible-playbook ringods.yml --syntax-check"
 
   # Test the playbook.
-  - "travis_wait 30 ansible-playbook --extra-vars '{\"configure_sudoers\":\"false\"}' ringods.yml"
+  - "travis_wait 30 ansible-playbook --extra-vars '{\"configure_sudoers\":\"false\"}' --skip-tags appstore ringods.yml"
 
   # Test the playbook's idempotence.
   - idempotence=$(mktemp)
-  - "ansible-playbook --extra-vars '{\"configure_sudoers\":\"false\"}' ringods.yml | tee -a ${idempotence}"
+  - "ansible-playbook --extra-vars '{\"configure_sudoers\":\"false\"}' --skip-tags appstore ringods.yml | tee -a ${idempotence}"
   - >
     tail ${idempotence}
     | grep -q 'changed=0.*failed=0'
