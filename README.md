@@ -11,4 +11,3 @@ but went with a more purer Ansible driven setup similar to [geerlingguy/mac-dev-
 - clone this repo
 - run `ansible-galaxy install -r requirements.yml`
 - run `ansible-playbook ringods.yml -i inventory.yml -K`
-
