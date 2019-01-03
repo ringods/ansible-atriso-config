@@ -1,0 +1,27 @@
+---
+homebrew_installed_packages:
+  - asciidoctor
+  - awscli
+  - cfssl
+  - curl
+  - delve
+  - dep
+  - direnv
+  - elixir
+  - elm
+  - elm-format
+  - erlang
+  - git
+  - git-lfs
+  - go
+  - graphviz
+  - gzip
+  - hugo
+  - jq
+  - packer
+  - pre-commit
+  - pstree
+  - terraform
+  - watch
+  - wget
+
