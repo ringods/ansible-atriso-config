@@ -118,6 +118,9 @@ dockitems_enabled:
   - name: MultiFirefox
     path: "/Applications/MultiFirefox.app"
     pos: 3
+  - name: OmniFocus
+    path: "/Applications/OmniFocus.app"
+    pos: 4
   - name: Tweetbot
     path: "/Applications/Tweetbot.app"
-    pos: 4
+    pos: 5
