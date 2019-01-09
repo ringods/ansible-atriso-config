@@ -31,6 +31,7 @@ homebrew_taps:
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
+  - 1password
   - alfred
   - balenaetcher
   - dash
@@ -48,6 +49,7 @@ homebrew_cask_apps:
   - little-snitch
   - micro-snitch
   - multifirefox
+  - omnifocus
   - slack
   - sourcetree
   - spotify
@@ -116,12 +118,15 @@ dockitems_enabled:
   - name: Airmail 3
     path: "/Applications/Airmail 3.app"
     pos: 2
+  - name: Calendar
+    path: "/Applications/Calendar.app"
+    pos: 3
   - name: MultiFirefox
     path: "/Applications/MultiFirefox.app"
-    pos: 3
+    pos: 4
   - name: OmniFocus
     path: "/Applications/OmniFocus.app"
-    pos: 4
+    pos: 5
   - name: Tweetbot
     path: "/Applications/Tweetbot.app"
-    pos: 5
+    pos: 6
