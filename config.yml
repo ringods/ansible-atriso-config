@@ -17,6 +17,7 @@ homebrew_installed_packages:
   - gzip
   - hugo
   - jq
+  - node
   - packer
   - pre-commit
   - pstree
