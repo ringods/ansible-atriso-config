@@ -66,6 +66,7 @@ homebrew_cask_apps:
   - whatsapp
   - wifi-explorer
   - zoho-docs
+  - zoho-workdrive
   - zoomus
 
 mas_email: ""
