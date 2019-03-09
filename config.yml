@@ -10,8 +10,10 @@ homebrew_installed_packages:
   - elm
   - elm-format
   - erlang
+  - fzf
   - git
   - git-lfs
+  - gnu-tar
   - go
   - graphviz
   - gzip
@@ -24,6 +26,7 @@ homebrew_installed_packages:
   - terraform
   - watch
   - wget
+  - zsh
 
 homebrew_taps:
   - homebrew/core
@@ -76,7 +79,7 @@ mas_installed_apps:
   - { id: 824171161, name: "Affinity Designer" }
   - { id: 918858936, name: "Airmail 3" }
   - { id: 1205882554, name: "Cliq - Team communication" }
-#  - { id: 1350225911, name: "Create Booklet 2" }
+  #  - { id: 1350225911, name: "Create Booklet 2" }
   - { id: 411643860, name: "DaisyDisk" }
   - { id: 406056744, name: "Evernote" }
   - { id: 682658836, name: "GarageBand" }

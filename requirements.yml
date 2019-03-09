@@ -4,3 +4,4 @@
 - name: geerlingguy.homebrew
 - name: geerlingguy.mas
 - name: fubarhouse.macdock
+- name: viasite-ansible.zsh
