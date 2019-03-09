@@ -32,6 +32,7 @@ homebrew_taps:
   - homebrew/core
   - homebrew/cask
   - homebrew/cask-eid
+  - homebrew/cask-fonts
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
@@ -46,6 +47,8 @@ homebrew_cask_apps:
   - eid-be-viewer
   - firefox
   - focus
+  - font-powerline-symbols
+  - font-roboto-mono-for-powerline
   - gitter
   - insomnia
   - istat-menus
