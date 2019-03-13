@@ -24,6 +24,7 @@ homebrew_installed_packages:
   - pre-commit
   - pstree
   - terraform
+  - terraform-docs
   - watch
   - wget
   - zsh
