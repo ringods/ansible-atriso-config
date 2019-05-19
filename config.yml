@@ -17,6 +17,7 @@ homebrew_installed_packages:
   - go
   - graphviz
   - gzip
+  - httpie
   - hugo
   - jq
   - node
