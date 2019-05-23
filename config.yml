@@ -33,6 +33,7 @@ homebrew_installed_packages:
 homebrew_taps:
   - homebrew/core
   - homebrew/cask
+  - homebrew/cask-drivers
   - homebrew/cask-eid
   - homebrew/cask-fonts
 
@@ -53,12 +54,14 @@ homebrew_cask_apps:
   - focus
   - font-powerline-symbols
   - font-roboto-mono-for-powerline
+  - garmin-express
   - gitter
   - insomnia
   - istat-menus
   - iterm2
   - keybase
   - little-snitch
+  - logitech-myharmony
   - micro-snitch
   - multifirefox
   - omnifocus
@@ -74,6 +77,7 @@ homebrew_cask_apps:
   - viscosity
   - visual-studio-code
   - vlc
+  - wacom-bamboo-tablet
   - whatsapp
   - wifi-explorer
   - zoho-docs
