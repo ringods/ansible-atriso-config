@@ -15,6 +15,7 @@ homebrew_installed_packages:
   - git-lfs
   - gnu-tar
   - go
+  - gpg
   - graphviz
   - gzip
   - httpie
