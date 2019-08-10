@@ -48,6 +48,7 @@ homebrew_cask_apps:
   - azure-data-studio
   - balenaetcher
   - brave-browser
+  - corretto
   - dash
   - discord
   - dropbox
