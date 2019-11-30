@@ -53,8 +53,6 @@ homebrew_cask_apps:
   - discord
   - dropbox
   - duet
-  - eid-be
-  - eid-be-viewer
   - firefox
   - focus
   - font-powerline-symbols
@@ -109,6 +107,8 @@ mas_installed_apps:
   - { id: 1384080005, name: "Tweetbot 3 for Twitter" }
   - { id: 810962929, name: "Writer - Online Word Processor" }
   - { id: 497799835, name: "XCode" }
+  - { id: 1477507499, name: "Zoho Invoice" }
+
 mas_upgrade_all_apps: no
 mas_signin_dialog: no
 
