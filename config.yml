@@ -87,7 +87,6 @@ mas_password: ""
 mas_installed_apps:
   - { id: 824171161, name: "Affinity Designer" }
   - { id: 1205882554, name: "Cliq - Team communication" }
-  #  - { id: 1350225911, name: "Create Booklet 2" }
   - { id: 411643860, name: "DaisyDisk" }
   - { id: 406056744, name: "Evernote" }
   - { id: 682658836, name: "GarageBand" }
@@ -97,7 +96,7 @@ mas_installed_apps:
   - { id: 409203825, name: "Numbers" }
   - { id: 409201541, name: "Pages" }
   - { id: 403504866, name: "PCalc" }
-  - { id: 407963104, name: "Pixelmator" }
+  - { id: 1176895641, name: "Spark" }
   - { id: 1384080005, name: "Tweetbot 3 for Twitter" }
   - { id: 810962929, name: "Writer - Online Word Processor" }
   - { id: 497799835, name: "XCode" }
@@ -138,12 +137,9 @@ dockitems_enabled:
   - name: Calendar
     path: "/Applications/Calendar.app"
     pos: 3
-  - name: MultiFirefox
-    path: "/Applications/MultiFirefox.app"
-    pos: 4
   - name: OmniFocus
     path: "/Applications/OmniFocus.app"
-    pos: 5
+    pos: 4
   - name: Tweetbot
     path: "/Applications/Tweetbot.app"
-    pos: 6
+    pos: 5
