@@ -5,7 +5,7 @@ jobs:
     name: Build
     runs-on: macos-latest
     steps:
-      - name: Check out code into the Go module directory
+      - name: Check out code
         uses: actions/checkout@v1
 
       - name: Install Ansible
