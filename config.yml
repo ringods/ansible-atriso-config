@@ -65,8 +65,9 @@ homebrew_cask_apps:
   - little-snitch
   - micro-snitch
   - omnifocus
-  - spectrum
+  - signal
   - slack
+  - spectrum
   - spotify
   - telegram
   - trainerroad
