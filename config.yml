@@ -86,7 +86,6 @@ mas_email: ""
 mas_password: ""
 mas_installed_apps:
   - { id: 824171161, name: "Affinity Designer" }
-  - { id: 918858936, name: "Airmail 3" }
   - { id: 1205882554, name: "Cliq - Team communication" }
   #  - { id: 1350225911, name: "Create Booklet 2" }
   - { id: 411643860, name: "DaisyDisk" }
@@ -133,8 +132,8 @@ dockitems_enabled:
   - name: Launchpad
     path: "/Applications/Launchpad.app"
     pos: 1
-  - name: Airmail 3
-    path: "/Applications/Airmail 3.app"
+  - name: Spark
+    path: "/Applications/Spark.app"
     pos: 2
   - name: Calendar
     path: "/Applications/Calendar.app"
