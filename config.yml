@@ -137,9 +137,12 @@ dockitems_enabled:
   - name: Calendar
     path: "/System/Applications/Calendar.app"
     pos: 3
+  - name: Brave Browser
+    path: "/Applications/Brave Browser.app"
+    pos: 4
   - name: OmniFocus
     path: "/Applications/OmniFocus.app"
-    pos: 4
+    pos: 5
   - name: Tweetbot
     path: "/Applications/Tweetbot.app"
-    pos: 5
+    pos: 6
