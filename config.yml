@@ -135,7 +135,7 @@ dockitems_enabled:
     path: "/Applications/Spark.app"
     pos: 2
   - name: Calendar
-    path: "/Applications/Calendar.app"
+    path: "/System/Applications/Calendar.app"
     pos: 3
   - name: OmniFocus
     path: "/Applications/OmniFocus.app"
