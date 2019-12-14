@@ -47,12 +47,12 @@ homebrew_cask_apps:
   - alfred
   - azure-data-studio
   - balenaetcher
-  - brave-browser
   - corretto
   - dash
   - discord
   - dropbox
   - duet
+  - firefox
   - focus
   - font-powerline-symbols
   - font-roboto-mono-for-powerline
