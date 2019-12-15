@@ -11,6 +11,7 @@ homebrew_installed_packages:
   - elm
   - elm-format
   - erlang
+  - exercism
   - fzf
   - git
   - git-lfs
@@ -27,9 +28,9 @@ homebrew_installed_packages:
   - plantuml
   - pre-commit
   - pstree
+  - pulumi
   - terraform
   - terraform-docs
-  - travis
   - watch
   - wget
   - zsh
