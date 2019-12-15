@@ -1,7 +1,7 @@
 ---
-
 - name: elliotweiser.osx-command-line-tools
 - name: geerlingguy.homebrew
 - name: geerlingguy.mas
+- name: geerlingguy.dotfiles
 - name: fubarhouse.macdock
 - name: viasite-ansible.zsh
