@@ -23,6 +23,7 @@ homebrew_installed_packages:
   - httpie
   - hugo
   - jq
+  - kubernetes-cli
   - node
   - packer
   - plantuml
