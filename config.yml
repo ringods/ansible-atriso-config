@@ -17,6 +17,7 @@ homebrew_installed_packages:
   - git-lfs
   - gnu-tar
   - go
+  - google-cloud-sdk
   - gpg
   - graphviz
   - gzip
