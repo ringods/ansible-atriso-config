@@ -17,7 +17,6 @@ homebrew_installed_packages:
   - git-lfs
   - gnu-tar
   - go
-  - google-cloud-sdk
   - gpg
   - graphviz
   - gzip
@@ -62,6 +61,7 @@ homebrew_cask_apps:
   - fork
   - garmin-express
   - gitter
+  - google-cloud-sdk
   - insomnia
   - istat-menus
   - iterm2
