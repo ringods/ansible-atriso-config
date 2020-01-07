@@ -24,7 +24,7 @@ homebrew_installed_packages:
   - hugo
   - jq
   - kubernetes-cli
-  - node
+  - node@12
   - packer
   - plantuml
   - pre-commit
