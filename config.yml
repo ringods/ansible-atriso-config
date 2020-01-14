@@ -2,6 +2,7 @@
 homebrew_installed_packages:
   - asciidoctor
   - awscli
+  - azure-cli
   - cfssl
   - coreutils
   - curl
