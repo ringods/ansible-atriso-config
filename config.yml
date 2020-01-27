@@ -54,6 +54,7 @@ homebrew_cask_apps:
   - corretto
   - dash
   - discord
+  - docker
   - dropbox
   - duet
   - firefox
