@@ -21,6 +21,7 @@ homebrew_installed_packages:
   - gpg
   - graphviz
   - gzip
+  - helm
   - httpie
   - hugo
   - jq
