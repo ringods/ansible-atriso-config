@@ -32,6 +32,7 @@ homebrew_installed_packages:
   - pre-commit
   - pstree
   - pulumi
+  - pyenv-virtualenv
   - terraform
   - terraform-docs
   - watch
