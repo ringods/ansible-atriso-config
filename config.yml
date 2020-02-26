@@ -37,6 +37,7 @@ homebrew_installed_packages:
   - terraform-docs
   - watch
   - wget
+  - yarn
   - zsh
 
 homebrew_taps:
