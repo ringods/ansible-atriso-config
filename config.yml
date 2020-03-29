@@ -57,6 +57,7 @@ homebrew_cask_apps:
   - dash
   - discord
   - docker
+  - dotnet-sdk
   - dropbox
   - duet
   - firefox
