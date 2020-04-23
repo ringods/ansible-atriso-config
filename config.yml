@@ -59,7 +59,6 @@ homebrew_cask_apps:
   - docker
   - dotnet-sdk
   - dropbox
-  - duet
   - firefox
   - focus
   - font-powerline-symbols
