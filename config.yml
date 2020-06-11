@@ -30,6 +30,7 @@ homebrew_installed_packages:
   - packer
   - plantuml
   - pre-commit
+  - protobuf
   - pstree
   - pulumi
   - pyenv-virtualenv
