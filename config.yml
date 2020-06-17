@@ -52,6 +52,7 @@ homebrew_taps:
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
   - 1password
+  - ableton-live-lite
   - alfred
   - balenaetcher
   - corretto
@@ -62,6 +63,7 @@ homebrew_cask_apps:
   - dropbox
   - firefox
   - focus
+  - focusrite-control
   - font-powerline-symbols
   - font-roboto-mono-for-powerline
   - garmin-express
