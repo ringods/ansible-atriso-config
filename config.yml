@@ -157,15 +157,18 @@ dockitems_enabled:
   - name: OmniFocus
     path: "/Applications/OmniFocus.app"
     pos: 5
+  - name: Basecamp 3
+    path: "/Applications/Basecamp 3.app"
+    pos: 6
   - name: Tweetbot
     path: "/Applications/Tweetbot.app"
-    pos: 6
+    pos: 7
   - name: Visual Studio Code
     path: "/Applications/Visual Studio Code.app"
-    pos: 7
+    pos: 8
   - name: SQLPro Studio
     path: "/Applications/SetApp/SQLPro Studio.app"
-    pos: 8
+    pos: 9
 
 dotfiles_repo: "https://github.com/ringods/dotfiles.git"
 dotfiles_repo_version: master
