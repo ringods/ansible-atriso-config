@@ -72,7 +72,6 @@ homebrew_cask_apps:
   - gitter
   - google-cloud-sdk
   - insomnia
-  - istat-menus
   - iterm2
   - keybase
   - little-snitch
