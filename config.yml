@@ -1,6 +1,5 @@
 ---
 homebrew_installed_packages:
-  - act
   - asciidoctor
   - awscli
   - azure-cli
@@ -27,19 +26,19 @@ homebrew_installed_packages:
   - hugo
   - jq
   - node@12
-  - packer
   - plantuml
   - pre-commit
   - protobuf
   - pstree
   - pulumi
   - pyenv-virtualenv
-  - terraform
-  - terraform-docs
   - watch
   - wget
   - yarn
   - zsh
+  - hashicorp/tap/packer
+  - hashicorp/tap/terraform
+  - nektos/tap/act
 
 homebrew_taps:
   - homebrew/core
@@ -49,6 +48,7 @@ homebrew_taps:
   - homebrew/cask-fonts
   - buo/cask-upgrade
   - nektos/tap
+  - hashicorp/tap
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
