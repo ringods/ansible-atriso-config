@@ -90,7 +90,6 @@ homebrew_cask_apps:
   - visual-studio-code
   - vlc
   - whatsapp
-  - zoho-workdrive
   - zoomus
 
 mas_email: ""
