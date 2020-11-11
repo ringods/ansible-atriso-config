@@ -63,7 +63,6 @@ homebrew_cask_apps:
   - dotnet-sdk
   - dropbox
   - firefox
-  - focus
   - focusrite-control
   - font-powerline-symbols
   - font-roboto-mono-for-powerline
