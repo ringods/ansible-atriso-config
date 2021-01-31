@@ -27,11 +27,11 @@ homebrew_installed_packages:
   - jq
   - node@12
   - plantuml
+  - poetry
   - pre-commit
   - protobuf
   - pstree
   - pulumi
-  - pyenv-virtualenv
   - watch
   - wget
   - yarn
