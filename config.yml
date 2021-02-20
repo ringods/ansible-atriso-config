@@ -26,6 +26,7 @@ homebrew_installed_packages:
   - hugo
   - jq
   - node@12
+  - pinentry-mac
   - plantuml
   - poetry
   - pre-commit
