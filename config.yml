@@ -17,8 +17,8 @@ homebrew_installed_packages:
   - git
   - git-lfs
   - gnu-tar
+  - gnupg
   - go
-  - gpg
   - graphviz
   - gzip
   - helm
@@ -95,7 +95,6 @@ mas_email: ""
 mas_password: ""
 mas_installed_apps:
   - { id: 824171161, name: "Affinity Designer" }
-  - { id: 1205882554, name: "Cliq - Team communication" }
   - { id: 411643860, name: "DaisyDisk" }
   - { id: 406056744, name: "Evernote" }
   - { id: 682658836, name: "GarageBand" }
@@ -107,9 +106,7 @@ mas_installed_apps:
   - { id: 403504866, name: "PCalc" }
   - { id: 1176895641, name: "Spark" }
   - { id: 1384080005, name: "Tweetbot 3 for Twitter" }
-  - { id: 810962929, name: "Writer - Online Word Processor" }
   - { id: 497799835, name: "XCode" }
-  - { id: 1477507499, name: "Zoho Invoice" }
 
 mas_upgrade_all_apps: no
 mas_signin_dialog: no
