@@ -8,10 +8,6 @@ homebrew_installed_packages:
   - curl
   - dep
   - direnv
-  - elixir
-  - elm
-  - elm-format
-  - erlang
   - exercism
   - fzf
   - git
@@ -25,7 +21,6 @@ homebrew_installed_packages:
   - httpie
   - hugo
   - jq
-  - node@12
   - pinentry-mac
   - plantuml
   - poetry
@@ -33,9 +28,9 @@ homebrew_installed_packages:
   - protobuf
   - pstree
   - pulumi
+  - volta
   - watch
   - wget
-  - yarn
   - zsh
   - hashicorp/tap/packer
   - hashicorp/tap/terraform
