@@ -1,6 +1,6 @@
 # macos-config
 
-[![Travis CI - `master`](https://travis-ci.org/ringods/macos-config.svg?branch=master)](https://travis-ci.org/ringods/macos-config)
+[![Continuous Integration](https://github.com/ringods/macos-config/actions/workflows/ci.yml/badge.svg)](https://github.com/ringods/macos-config/actions/workflows/ci.yml)
 
 Ansible driven MacOS configuration automation. Initial inspiration from [Superlumic](https://github.com/superlumic)
 but went with a more purer Ansible driven setup similar to [geerlingguy/mac-dev-playbook](https://github.com/geerlingguy/mac-dev-playbook).
@@ -10,6 +10,7 @@ but went with a more purer Ansible driven setup similar to [geerlingguy/mac-dev-
 * [superlumic](https://github.com/superlumic/superlumic-config)
 * [osxc](https://github.com/osxc/starter)
 * [mac-dev-playbook](https://github.com/geerlingguy/mac-dev-playbook)
+* [macos-virtualbox-vm](https://github.com/geerlingguy/macos-virtualbox-vm)
 
 ## Usage
 
