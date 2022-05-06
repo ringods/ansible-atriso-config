@@ -7,11 +7,11 @@
 
   roles:
     - role: elliotweiser.osx-command-line-tools
-    - role: geerlingguy.homebrew
+    - role: geerlingguy.mac.homebrew
       tags: ["homebrew"]
-    - role: geerlingguy.mas
+    - role: geerlingguy.mac.mas
       when: mas_installed_apps
       tags: ["appstore"]
-    - role: geerlingguy.dock
+    - role: geerlingguy.mac.dock
     - role: viasite-ansible.zsh
     - role: geerlingguy.dotfiles
