@@ -40,7 +40,6 @@ homebrew_taps:
   - homebrew/core
   - homebrew/cask
   - homebrew/cask-drivers
-  - homebrew/cask-eid
   - homebrew/cask-fonts
   - buo/cask-upgrade
   - dagger/tap
