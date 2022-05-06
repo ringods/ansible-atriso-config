@@ -73,7 +73,6 @@ homebrew_cask_apps:
   - omnifocus
   - signal
   - slack
-  - spectrum
   - spotify
   - telegram
   - trainerroad
@@ -125,7 +124,7 @@ dockutil_install_path: /usr/local/bin/dockutil
 
 dockitems_remove_all: false
 
-dockitems_disabled:
+dockitems_remove:
   - Mail
   - Safari
   - Siri
@@ -142,7 +141,7 @@ dockitems_disabled:
   - Calendar
   - Terminal
 
-dockitems_enabled:
+dockitems_persist:
   - name: Launchpad
     path: "/Applications/Launchpad.app"
     pos: 1
@@ -158,18 +157,15 @@ dockitems_enabled:
   - name: OmniFocus
     path: "/Applications/OmniFocus.app"
     pos: 5
-  - name: Basecamp 3
-    path: "/Applications/Basecamp 3.app"
-    pos: 6
   - name: Tweetbot
     path: "/Applications/Tweetbot.app"
-    pos: 7
+    pos: 6
   - name: Visual Studio Code
     path: "/Applications/Visual Studio Code.app"
-    pos: 8
+    pos: 7
   - name: SQLPro Studio
     path: "/Applications/SetApp/SQLPro Studio.app"
-    pos: 9
+    pos: 8
 
 dotfiles_repo: "https://github.com/ringods/dotfiles.git"
 dotfiles_repo_version: master
