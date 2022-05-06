@@ -1,5 +1,8 @@
 ---
-- name: elliotweiser.osx-command-line-tools
-- name: geerlingguy.mac
-- name: geerlingguy.dotfiles
-- name: viasite-ansible.zsh
+roles:
+  - name: elliotweiser.osx-command-line-tools
+  - name: geerlingguy.dotfiles
+  - name: viasite-ansible.zsh
+
+collections:
+  - name: geerlingguy.mac
