@@ -28,7 +28,7 @@ jobs:
 
       - name: Lint code.
         run: |
-          yamllint ringods.yml requirements.yml inventory.yml config.yml
+          yamllint ringods.yml requirements.yml config.yml
           ansible-lint
 
   integration:
