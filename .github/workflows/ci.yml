@@ -1,3 +1,4 @@
+---
 name: Continuous Integration
 
 on:
@@ -27,12 +28,13 @@ jobs:
 
       - name: Lint code.
         run: |
-          yamllint .
+          yamllint ringods.yml requirements.yml inventory.yml config.yml
           ansible-lint
 
   integration:
     name: Integration
     runs-on: ${{ matrix.os }}
+    needs: lint
     strategy:
       matrix:
         os:
