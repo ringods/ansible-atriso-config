@@ -77,11 +77,10 @@ homebrew_cask_apps:
   - telegram
   - trainerroad
   - vagrant
-  - virtualbox
-  - virtualbox-extension-pack
   - viscosity
   - visual-studio-code
   - vlc
+  - vmware-fusion
   - whatsapp
   - zoomus
 
