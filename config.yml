@@ -90,8 +90,6 @@ mas_password: ""
 mas_installed_apps:
   - id: 824171161
     name: "Affinity Designer"
-  - id: 411643860
-    name: "DaisyDisk"
   - id: 406056744
     name: "Evernote"
   - id: 682658836
