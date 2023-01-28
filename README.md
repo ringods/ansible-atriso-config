@@ -17,13 +17,8 @@ but went with a more purer Ansible driven setup similar to [geerlingguy/mac-dev-
 - Install Ansible
 - clone this repo
 - run `ansible-galaxy install -r requirements.yml`
-- run `ansible-playbook ringods.yml -i inventory.yml -K`
+- run `ansible-playbook ringods.yml -i inventory.ini -K`
 
-To finish up the correct font usage, execute these manual steps:
+To test against a macOS VM running via CirrusLabs Tart:
 
-- iTerm
-  - In `Preferences`, go to `Profiles`
-  - Per profile you want to use, go to `Text`
-  - Set the font to the Powerline font installed via this Ansible config.
-- Visual Studio Code
-  - Follow [this StackOverflow answer](https://stackoverflow.com/a/48038543/7269988)
+- run `ansible-playbook ringods.yml -i inventory-tart.ini -K`

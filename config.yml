@@ -1,4 +1,13 @@
 ---
+homebrew_taps:
+  - homebrew/core
+  - homebrew/cask
+  - homebrew/cask-drivers
+  - buo/cask-upgrade
+  - dagger/tap
+  - hashicorp/tap
+  - pulumi/tap
+
 homebrew_installed_packages:
   - asciidoctor
   - awscli
@@ -6,7 +15,6 @@ homebrew_installed_packages:
   - cfssl
   - coreutils
   - curl
-  - dep
   - direnv
   - exercism
   - fzf
@@ -27,7 +35,6 @@ homebrew_installed_packages:
   - pre-commit
   - protobuf
   - pstree
-  - pulumi
   - volta
   - watch
   - wget
@@ -35,20 +42,18 @@ homebrew_installed_packages:
   - hashicorp/tap/packer
   - hashicorp/tap/terraform
   - dagger/tap/dagger
+  - pulumi/tap/pulumi
+  - pulumi/tap/crd2pulumi
+  - pulumi/tap/kube2pulumi
+  - pulumi/tap/pulumictl
+  - pulumi/tap/tf2pulumi
 
-homebrew_taps:
-  - homebrew/core
-  - homebrew/cask
-  - homebrew/cask-drivers
-  - homebrew/cask-fonts
-  - buo/cask-upgrade
-  - dagger/tap
-  - hashicorp/tap
+homebrew_uninstalled_packages:
+  - pulumi
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
   - 1password
-  - ableton-live-lite
   - alfred
   - balenaetcher
   - corretto
@@ -57,11 +62,9 @@ homebrew_cask_apps:
   - docker
   - dotnet-sdk
   - dropbox
+  - elgato-stream-deck
   - firefox
-  - focusrite-control
-  - font-powerline-symbols
-  - font-roboto-mono-for-powerline
-  - garmin-express
+  #- focusrite-control <- Needs Rosetta / Follow up on Twitter with @WeAreFocusrite
   - gitter
   - google-cloud-sdk
   - insomnia
@@ -70,19 +73,22 @@ homebrew_cask_apps:
   - little-snitch
   - micro-snitch
   - microsoft-teams
-  - mist
   - omnifocus
   - signal
   - slack
   - spotify
   - telegram
   - trainerroad
-  - vagrant
   - viscosity
   - visual-studio-code
   - vlc
-  - vmware-fusion
   - whatsapp
+  - zoom
+
+homebrew_cask_uninstalled_apps:
+  - font-powerline-symbols
+  - font-roboto-mono-for-powerline
+  - vmware-fusion
   - zoomus
 
 mas_email: ""
@@ -108,12 +114,10 @@ mas_installed_apps:
     name: "PCalc"
   - id: 1176895641
     name: "Spark"
-  - id: 1384080005
-    name: "Tweetbot 3 for Twitter"
   - id: 497799835
     name: "XCode"
 
-mas_upgrade_all_apps: false
+mas_upgrade_all_apps: true
 mas_signin_dialog: false
 
 # yamllint disable-line rule:line-length
@@ -133,11 +137,17 @@ dockitems_remove:
   - Photos
   - Messages
   - FaceTime
-  - iTunes
+  - Music
+  - TV
   - App Store
   - System Preferences
   - Calendar
   - Terminal
+  - Podcasts
+  - Keynote
+  - Pages
+  - Numbers
+  - "System Settings"
 
 dockitems_persist:
   - name: Launchpad
@@ -155,15 +165,12 @@ dockitems_persist:
   - name: OmniFocus
     path: "/Applications/OmniFocus.app"
     pos: 5
-  - name: Tweetbot
-    path: "/Applications/Tweetbot.app"
-    pos: 6
   - name: Visual Studio Code
     path: "/Applications/Visual Studio Code.app"
-    pos: 7
+    pos: 6
   - name: SQLPro Studio
     path: "/Applications/SetApp/SQLPro Studio.app"
-    pos: 8
+    pos: 7
 
 dotfiles_repo: "https://github.com/ringods/dotfiles.git"
 dotfiles_repo_version: master
