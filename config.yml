@@ -54,10 +54,10 @@ homebrew_uninstalled_packages:
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
   - 1password
+  - 1password-cli
   - alfred
   - balenaetcher
   - corretto
-  - dash
   - discord
   - docker
   - dotnet-sdk
@@ -66,14 +66,21 @@ homebrew_cask_apps:
   - firefox
   #- focusrite-control <- Needs Rosetta / Follow up on Twitter with @WeAreFocusrite
   - gitter
+  - google-chrome
   - google-cloud-sdk
+  - google-drive
   - insomnia
   - iterm2
+  #- jetbrains-toolbox <- Will I use Fleet or goLand?
   - keybase
   - little-snitch
   - micro-snitch
   - microsoft-teams
+  - obsidian
   - omnifocus
+  - paragon-extfs
+  - raspberry-pi-imager
+  - setapp
   - signal
   - slack
   - spotify
@@ -86,8 +93,12 @@ homebrew_cask_apps:
   - zoom
 
 homebrew_cask_uninstalled_apps:
+  - ableton-live-lite
+  - dash
   - font-powerline-symbols
   - font-roboto-mono-for-powerline
+  - garmin-express
+  - visualvm
   - vmware-fusion
   - zoomus
 
