@@ -18,7 +18,6 @@ homebrew_installed_packages:
   - direnv
   - dotnet
   - exercism
-  - fzf
   - gh
   - git
   - git-lfs
@@ -49,6 +48,9 @@ homebrew_installed_packages:
   - pulumi/tap/kube2pulumi
   - pulumi/tap/pulumictl
   - pulumi/tap/tf2pulumi
+
+homebrew_uninstalled_packages:
+  - fzf
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
