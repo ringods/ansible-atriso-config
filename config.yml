@@ -19,6 +19,7 @@ homebrew_installed_packages:
   - dotnet
   - exercism
   - fzf
+  - gh
   - git
   - git-lfs
   - gnu-tar
