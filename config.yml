@@ -16,7 +16,7 @@ homebrew_installed_packages:
   - coreutils
   - curl
   - direnv
-  # - dotnet
+  - dotnet
   - exercism
   - fzf
   - git
@@ -48,9 +48,6 @@ homebrew_installed_packages:
   - pulumi/tap/kube2pulumi
   - pulumi/tap/pulumictl
   - pulumi/tap/tf2pulumi
-
-homebrew_uninstalled_packages:
-  - pulumi
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
@@ -94,7 +91,6 @@ homebrew_cask_apps:
 
 homebrew_cask_uninstalled_apps:
   - ableton-live-lite
-  - dotnet-sdk
   - dash
   - font-powerline-symbols
   - font-roboto-mono-for-powerline
