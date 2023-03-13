@@ -184,12 +184,15 @@ dockitems_persist:
   - name: OmniFocus
     path: "/Applications/OmniFocus.app"
     pos: 6
+  - name: ClickUp
+    path: "/Applications/ClickUp.app"
+    pos: 7
   - name: Visual Studio Code
     path: "/Applications/Visual Studio Code.app"
-    pos: 7
+    pos: 8
   - name: SQLPro Studio
     path: "/Applications/SetApp/SQLPro Studio.app"
-    pos: 8
+    pos: 9
 
 dotfiles_repo: "https://github.com/ringods/dotfiles.git"
 dotfiles_repo_version: master
