@@ -16,6 +16,7 @@ homebrew_installed_packages:
   - coreutils
   - curl
   - direnv
+  # - dotnet
   - exercism
   - fzf
   - git
@@ -57,10 +58,10 @@ homebrew_cask_apps:
   - 1password-cli
   - alfred
   - balenaetcher
+  - clickup
   - corretto
   - discord
   - docker
-  - dotnet-sdk
   - dropbox
   - elgato-stream-deck
   - firefox
@@ -71,7 +72,6 @@ homebrew_cask_apps:
   - google-drive
   - insomnia
   - iterm2
-  #- jetbrains-toolbox <- Will I use Fleet or goLand?
   - keybase
   - little-snitch
   - micro-snitch
@@ -94,10 +94,12 @@ homebrew_cask_apps:
 
 homebrew_cask_uninstalled_apps:
   - ableton-live-lite
+  - dotnet-sdk
   - dash
   - font-powerline-symbols
   - font-roboto-mono-for-powerline
   - garmin-express
+  - jetbrains-toolbox
   - visualvm
   - vmware-fusion
   - zoomus
@@ -125,18 +127,19 @@ mas_installed_apps:
     name: "PCalc"
   - id: 1176895641
     name: "Spark"
+  - id: 899247664
+    name: "Testflight"
   - id: 497799835
     name: "XCode"
 
 mas_upgrade_all_apps: true
 mas_signin_dialog: false
 
-# yamllint disable-line rule:line-length
-dockutil_url: https://raw.githubusercontent.com/kcrawford/dockutil/master/scripts/dockutil
-dockutil_install_path: /usr/local/bin/dockutil
-
+# Whether to install dockutil or not
+dockutil_install: true
+# Which homebrew cask to install for dockutil
+dockutil_homebrew_cask: hpedrorodrigues/tools/dockutil
 dockitems_remove_all: false
-
 dockitems_remove:
   - Mail
   - Safari
@@ -173,15 +176,18 @@ dockitems_persist:
   - name: Calendar
     path: "/System/Applications/Calendar.app"
     pos: 4
+  - name: Twitter
+    path: "/Applications/Twitter.app"
+    pos: 5
   - name: OmniFocus
     path: "/Applications/OmniFocus.app"
-    pos: 5
+    pos: 6
   - name: Visual Studio Code
     path: "/Applications/Visual Studio Code.app"
-    pos: 6
+    pos: 7
   - name: SQLPro Studio
     path: "/Applications/SetApp/SQLPro Studio.app"
-    pos: 7
+    pos: 8
 
 dotfiles_repo: "https://github.com/ringods/dotfiles.git"
 dotfiles_repo_version: master
