@@ -66,6 +66,7 @@ homebrew_cask_apps:
   - elgato-stream-deck
   - firefox
   #- focusrite-control <- Needs Rosetta / Follow up on Twitter with @WeAreFocusrite
+  - font-roboto-mono-nerd-font
   - gitter
   - google-chrome
   - google-cloud-sdk
@@ -95,8 +96,6 @@ homebrew_cask_apps:
 homebrew_cask_uninstalled_apps:
   - ableton-live-lite
   - dash
-  - font-powerline-symbols
-  - font-roboto-mono-for-powerline
   - garmin-express
   - jetbrains-toolbox
   - visualvm
