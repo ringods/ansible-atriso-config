@@ -10,6 +10,7 @@ homebrew_taps:
   - pulumi/tap
 
 homebrew_installed_packages:
+  - antidote
   - asciidoctor
   - awscli
   - azure-cli
