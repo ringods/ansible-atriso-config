@@ -37,6 +37,7 @@ homebrew_installed_packages:
   - pre-commit
   - protobuf
   - pstree
+  - starship
   - volta
   - watch
   - wget
