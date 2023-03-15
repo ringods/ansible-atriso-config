@@ -205,3 +205,4 @@ dotfiles_files:
   - .gitconfig
   - .gitignore
   - .zshrc.local
+  - .zsh_plugins.txt
