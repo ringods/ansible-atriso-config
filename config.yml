@@ -8,6 +8,7 @@ homebrew_taps:
   - dagger/tap
   - hashicorp/tap
   - pulumi/tap
+  - isen-ng/dotnet-sdk-versions
 
 homebrew_installed_packages:
   - antidote
@@ -18,7 +19,6 @@ homebrew_installed_packages:
   - coreutils
   - curl
   - direnv
-  - dotnet
   - exercism
   - gh
   - git
@@ -54,6 +54,7 @@ homebrew_installed_packages:
 
 homebrew_uninstalled_packages:
   - fzf
+  - dotnet
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
@@ -96,6 +97,8 @@ homebrew_cask_apps:
   - warp
   - whatsapp
   - zoom
+  - isen-ng/dotnet-sdk-versions/dotnet-sdk6-0-400
+  - isen-ng/dotnet-sdk-versions/dotnet-sdk7-0-200
 
 homebrew_cask_uninstalled_apps:
   - ableton-live-lite
