@@ -69,7 +69,7 @@ homebrew_cask_apps:
   - dropbox
   - elgato-stream-deck
   - firefox
-  #- focusrite-control <- Needs Rosetta / Follow up on Twitter with @WeAreFocusrite
+  - focusrite-control
   - font-roboto-mono-nerd-font
   - gitter
   - google-chrome
