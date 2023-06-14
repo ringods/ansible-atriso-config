@@ -14,11 +14,11 @@ but went with a more purer Ansible driven setup similar to [geerlingguy/mac-dev-
 
 ## Usage
 
-- Install Ansible
-- clone this repo
-- run `ansible-galaxy install -r requirements.yml`
-- run `ansible-playbook ringods.yml -i inventory.ini -K`
+* Install Ansible
+* clone this repo
+* run `ansible-galaxy install -r requirements.yml`
+* run `ansible-playbook ringods.yml -i inventory.ini -K`
 
 To test against a macOS VM running via CirrusLabs Tart:
 
-- run `ansible-playbook ringods.yml -i inventory-tart.ini -K`
+* run `ansible-playbook ringods.yml -i inventory-tart.ini -K`
