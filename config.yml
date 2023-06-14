@@ -4,6 +4,7 @@ homebrew_taps:
   - homebrew/cask
   - homebrew/cask-drivers
   - homebrew/cask-fonts
+  - homebrew/cask-versions
   - buo/cask-upgrade
   - dagger/tap
   - hashicorp/tap
@@ -97,6 +98,7 @@ homebrew_cask_apps:
   - warp
   - whatsapp
   - zoom
+  - homebrew/cask-versions/thunderbird-beta
   - isen-ng/dotnet-sdk-versions/dotnet-sdk6-0-400
   - isen-ng/dotnet-sdk-versions/dotnet-sdk7-0-200
 
@@ -120,6 +122,8 @@ mas_installed_apps:
     name: "GarageBand"
   - id: 408981434
     name: "iMovie"
+  - id: 6444602274
+    name: "Ivory"
   - id: 409183694
     name: "Keynote"
   - id: 441258766
@@ -130,8 +134,6 @@ mas_installed_apps:
     name: "Pages"
   - id: 403504866
     name: "PCalc"
-  - id: 1176895641
-    name: "Spark"
   - id: 899247664
     name: "Testflight"
   - id: 1482454543
@@ -139,7 +141,7 @@ mas_installed_apps:
   - id: 497799835
     name: "XCode"
 
-mas_upgrade_all_apps: true
+mas_upgrade_all_apps: false
 mas_signin_dialog: false
 
 # Whether to install dockutil or not
@@ -177,8 +179,8 @@ dockitems_persist:
   - name: Commander One
     path: "/Applications/SetApp/Commander One.app"
     pos: 2
-  - name: Spark
-    path: "/Applications/Spark.app"
+  - name: Thunderbird
+    path: "/Applications/Thunderbird.app"
     pos: 3
   - name: Calendar
     path: "/System/Applications/Calendar.app"
