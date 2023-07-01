@@ -84,6 +84,7 @@ homebrew_cask_apps:
   - microsoft-teams
   - obsidian
   - paragon-extfs
+  - raindropio
   - raspberry-pi-imager
   - setapp
   - signal
