@@ -83,7 +83,6 @@ homebrew_cask_apps:
   - micro-snitch
   - microsoft-teams
   - obsidian
-  - omnifocus
   - paragon-extfs
   - raspberry-pi-imager
   - setapp
@@ -108,6 +107,7 @@ homebrew_cask_uninstalled_apps:
   - dash
   - garmin-express
   - jetbrains-toolbox
+  - omnifocus
   - visualvm
   - vmware-fusion
   - zoomus
@@ -172,7 +172,7 @@ dockitems_remove:
   - Pages
   - Numbers
   - "System Settings"
-  - Omnifocus
+  - OmniFocus
 
 dockitems_persist:
   - name: Launchpad
