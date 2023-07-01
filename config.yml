@@ -172,6 +172,7 @@ dockitems_remove:
   - Pages
   - Numbers
   - "System Settings"
+  - Omnifocus
 
 dockitems_persist:
   - name: Launchpad
@@ -189,18 +190,15 @@ dockitems_persist:
   - name: Twitter
     path: "/Applications/Twitter.app"
     pos: 5
-  - name: OmniFocus
-    path: "/Applications/OmniFocus.app"
-    pos: 6
   - name: ClickUp
     path: "/Applications/ClickUp.app"
-    pos: 7
+    pos: 6
   - name: Visual Studio Code
     path: "/Applications/Visual Studio Code.app"
-    pos: 8
+    pos: 7
   - name: SQLPro Studio
     path: "/Applications/SetApp/SQLPro Studio.app"
-    pos: 9
+    pos: 8
 
 dotfiles_repo: "https://github.com/ringods/dotfiles.git"
 dotfiles_repo_version: master
