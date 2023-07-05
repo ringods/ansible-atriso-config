@@ -93,7 +93,6 @@ homebrew_cask_apps:
   - surfshark
   - telegram
   - trainerroad
-  - viscosity
   - visual-studio-code
   - vlc
   - warp
@@ -109,6 +108,7 @@ homebrew_cask_uninstalled_apps:
   - garmin-express
   - jetbrains-toolbox
   - omnifocus
+  - viscosity
   - visualvm
   - vmware-fusion
   - zoomus
