@@ -98,7 +98,6 @@ homebrew_cask_apps:
   - warp
   - whatsapp
   - zoom
-  - homebrew/cask-versions/thunderbird-beta
   - isen-ng/dotnet-sdk-versions/dotnet-sdk6-0-400
   - isen-ng/dotnet-sdk-versions/dotnet-sdk7-0-200
 
@@ -112,6 +111,7 @@ homebrew_cask_uninstalled_apps:
   - visualvm
   - vmware-fusion
   - zoomus
+  - homebrew/cask-versions/thunderbird-beta
 
 mas_email: ""
 mas_password: ""
