@@ -92,6 +92,7 @@ homebrew_cask_apps:
   - spotify
   - surfshark
   - telegram
+  - thunderbird
   - trainerroad
   - visual-studio-code
   - vlc
@@ -111,7 +112,6 @@ homebrew_cask_uninstalled_apps:
   - visualvm
   - vmware-fusion
   - zoomus
-  - homebrew/cask-versions/thunderbird-beta
 
 mas_email: ""
 mas_password: ""
