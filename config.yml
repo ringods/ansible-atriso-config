@@ -78,7 +78,6 @@ homebrew_cask_apps:
   - google-drive
   - insomnia
   - iterm2
-  - keybase
   - little-snitch
   - micro-snitch
   - microsoft-teams
@@ -107,6 +106,7 @@ homebrew_cask_uninstalled_apps:
   - dash
   - garmin-express
   - jetbrains-toolbox
+  - keybase
   - omnifocus
   - viscosity
   - visualvm
