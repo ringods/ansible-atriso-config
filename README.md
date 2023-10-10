@@ -1,6 +1,11 @@
-# macos-config
+# ansible-atriso-config
 
-Ansible driven MacOS configuration automation. Initial inspiration from [Superlumic](https://github.com/superlumic)
+Ansible driven configuration automation for:
+
+* macOS
+* [PiKVM](https://pikvm.org/)
+
+Initial inspiration for the macOS setup from [Superlumic](https://github.com/superlumic)
 but went with a more purer Ansible driven setup similar to [geerlingguy/mac-dev-playbook](https://github.com/geerlingguy/mac-dev-playbook).
 
 ## Inspiration
@@ -10,13 +15,15 @@ but went with a more purer Ansible driven setup similar to [geerlingguy/mac-dev-
 * [mac-dev-playbook](https://github.com/geerlingguy/mac-dev-playbook)
 * [macos-virtualbox-vm](https://github.com/geerlingguy/macos-virtualbox-vm)
 
-## Usage
+## Preparation
 
 * Install Ansible
 * clone this repo
 * run `ansible-galaxy install -r requirements.yml`
-* run `ansible-playbook ringods.yml -i inventory.ini -K`
 
-To test against a macOS VM running via CirrusLabs Tart:
+## Usage
 
-* run `ansible-playbook ringods.yml -i inventory-tart.ini -K`
+For the MacBook Pro laptops, use one of the following commands:
+
+* run `ansible-playbook playbooks/mac/main.yml -i inventories/atrisobook2020 -K`
+* run `ansible-playbook playbooks/mac/main.yml -i inventories/atrisobook2022 -K`
