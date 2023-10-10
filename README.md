@@ -1,7 +1,5 @@
 # macos-config
 
-[![Continuous Integration](https://github.com/ringods/macos-config/actions/workflows/ci.yml/badge.svg)](https://github.com/ringods/macos-config/actions/workflows/ci.yml)
-
 Ansible driven MacOS configuration automation. Initial inspiration from [Superlumic](https://github.com/superlumic)
 but went with a more purer Ansible driven setup similar to [geerlingguy/mac-dev-playbook](https://github.com/geerlingguy/mac-dev-playbook).
 
