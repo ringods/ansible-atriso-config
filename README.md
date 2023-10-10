@@ -27,3 +27,9 @@ For the MacBook Pro laptops, use one of the following commands:
 
 * run `ansible-playbook playbooks/mac/main.yml -i inventories/atrisobook2020 -K`
 * run `ansible-playbook playbooks/mac/main.yml -i inventories/atrisobook2022 -K`
+
+For the MacBook Pro laptops, use one of the following commands:
+
+* run `ansible-playbook playbooks/pikvm/main.yml -i inventories/pikvm --ask-pass`
+
+The ssh password can be found in 1Password.

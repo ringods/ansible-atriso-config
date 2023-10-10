@@ -1,0 +1,15 @@
+---
+- hosts: all
+  gather_facts: no
+  pre_tasks:
+    - name: Read & Write
+      raw: rw
+  post_tasks:
+    - name: Read Only
+      raw: ro
+
+  vars_files:
+    - vars.yml
+
+  roles:
+    - pikvm
