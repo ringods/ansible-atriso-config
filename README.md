@@ -30,6 +30,6 @@ For the MacBook Pro laptops, use one of the following commands:
 
 For the MacBook Pro laptops, use one of the following commands:
 
-* run `ansible-playbook playbooks/pikvm/main.yml -i inventories/pikvm --ask-pass`
+* run `ansible-playbook playbooks/pikvm/main.yml -i inventories/pikvm`
 
-The ssh password can be found in 1Password.
+The ssh keys can be found in 1Password.

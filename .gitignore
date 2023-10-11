@@ -1,4 +1,4 @@
 dependencies
-roles/
 *.retry
 *.iso
+__pycache__

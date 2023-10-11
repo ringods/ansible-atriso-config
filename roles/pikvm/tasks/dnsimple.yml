@@ -1,0 +1,7 @@
+- name: Touch again the same file, but do not change times this makes the task idempotent
+  ansible.builtin.file:
+    path: /var/lib/kvmd/pst/data/testfile
+    state: touch
+  become: true
+  become_method: kvmd-pstrun
+  # become_flags: '-s kvmd-pstrun --'

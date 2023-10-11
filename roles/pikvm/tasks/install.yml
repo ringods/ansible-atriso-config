@@ -1,0 +1,8 @@
+- name: Upgrade and update cache
+  pacman:
+    update_cache: yes
+    upgrade: yes
+
+- name: Install packages
+  pacman:
+    name: "{{ default_packages }}"
