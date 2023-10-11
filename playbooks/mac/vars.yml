@@ -68,6 +68,7 @@ homebrew_cask_apps:
   - discord
   - docker
   - dropbox
+  - element
   - elgato-stream-deck
   - firefox
   - focusrite-control
