@@ -35,7 +35,6 @@ display = Display()
 class BecomeModule(BecomeBase):
 
     name = 'community.pikvm.kvmd-pst'
-    prompt = 'PST write is allowed: /var/lib/kvmd/pst/data'
 
     def build_become_command(self, cmd, shell):
         super(BecomeModule, self).build_become_command(cmd, shell)
@@ -45,6 +44,6 @@ class BecomeModule(BecomeBase):
 
         become = self.get_option('become_exe')
 
-        full_cmd = '%s -- %s' % (become, cmd)
-        display.v(u"Full command: %s" % full_cmd)
+        full_cmd = '%s -- %s' % (become, self._build_success_command(cmd, shell))
+        display.debug(u"Full command: %s" % full_cmd)
         return full_cmd
