@@ -28,8 +28,10 @@ For the MacBook Pro laptops, use one of the following commands:
 * run `ansible-playbook playbooks/mac/main.yml -i inventories/atrisobook2020 -K`
 * run `ansible-playbook playbooks/mac/main.yml -i inventories/atrisobook2022 -K`
 
-For the MacBook Pro laptops, use one of the following commands:
+For the PiKVM, use the following command:
 
-* run `ansible-playbook playbooks/pikvm/main.yml -i inventories/pikvm`
+* run `ansible-playbook playbooks/pikvm/main.yml -i inventories/pikvm --extra-vars @secrets.yml`
+
+The `secrets.yml` file contains a DNSimple API token created on the [DNSimple portal](https://dnsimple.com/dashboard).
 
 The ssh keys can be found in 1Password.

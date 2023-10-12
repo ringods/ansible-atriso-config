@@ -1,6 +1,16 @@
-- name: Touch again the same file, but do not change times this makes the task idempotent
+- name: Create the base folder to store Certbot config files
   ansible.builtin.file:
-    path: /var/lib/kvmd/pst/data/testfile
-    state: absent
+    path: /var/lib/kvmd/pst/data/certbot/runroot
+    state: directory
+    owner: kvmd-certbot
+  become: true
+  become_method: kvmd-pstrun
+
+- name: Create the Certbot DNSimple config file, containing a DNSimple API token
+  ansible.builtin.template:
+    src: certbot-dnsimple.conf.j2
+    dest: /var/lib/kvmd/pst/data/certbot/runroot/certbot-dnsimple.conf
+    owner: kvmd-certbot
+    mode: '0600'
   become: true
   become_method: kvmd-pstrun

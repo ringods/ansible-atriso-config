@@ -2,3 +2,4 @@ dependencies
 *.retry
 *.iso
 __pycache__
+secrets.yml
