@@ -81,7 +81,6 @@ homebrew_cask_apps:
   - iterm2
   - little-snitch
   - micro-snitch
-  - microsoft-teams
   - obsidian
   - paragon-extfs
   - raindropio
@@ -108,6 +107,7 @@ homebrew_cask_uninstalled_apps:
   - garmin-express
   - jetbrains-toolbox
   - keybase
+  - microsoft-teams
   - omnifocus
   - viscosity
   - visualvm
