@@ -35,3 +35,20 @@ For the PiKVM, use the following command:
 The `secrets.yml` file contains a DNSimple API token created on the [DNSimple portal](https://dnsimple.com/dashboard).
 
 The ssh keys can be found in 1Password.
+
+## Needs automation
+
+The following parts need conversion into Ansible roles & tasks, but are documented here in the meantime.
+
+### PiKVM
+
+After the Ansible setup, the PiKVM has the Certbot DNSimple plugin installed, together with the config file containing a DNSimple API token. The following commands are a one time setup required to get the certificate generated and renewed automatically:
+
+```bash
+$ rw
+$ kvmd-certbot certonly --dns-dnsimple --dns-dnsimple-credentials /var/lib/kvmd/pst/data/certbot/runroot/certbot-dnsimple.conf -d kvm.home.atriso.be --email ringo@de-smet.name -n --agree-tos
+$ kvmd-certbot install_nginx kvm.home.atriso.be
+$ kvmd-certbot install_vnc kvm.home.atriso.be
+$ systemctl enable --now kvmd-certbot.timer
+$ ro
+```
