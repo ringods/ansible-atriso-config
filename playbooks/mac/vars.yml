@@ -175,6 +175,7 @@ dockitems_remove:
   - Numbers
   - "System Settings"
   - OmniFocus
+  - Twitter
 
 dockitems_persist:
   - name: Launchpad
@@ -189,8 +190,8 @@ dockitems_persist:
   - name: Calendar
     path: "/System/Applications/Calendar.app"
     pos: 4
-  - name: Twitter
-    path: "/Applications/Twitter.app"
+  - name: Ivory
+    path: "/Applications/Ivory.app"
     pos: 5
   - name: ClickUp
     path: "/Applications/ClickUp.app"
