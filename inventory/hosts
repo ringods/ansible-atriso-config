@@ -1,0 +1,4 @@
+[all]
+AtrisoBook2020 ansible_connection=local
+AtrisoBook2022 ansible_connection=local
+kvm.home.atriso.be
