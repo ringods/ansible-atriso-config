@@ -1,5 +1,5 @@
 ---
-- hosts: all
+- hosts: macbooks
 
   vars_files:
     - vars.yml
