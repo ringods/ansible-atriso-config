@@ -1,0 +1,23 @@
+---
+galaxy_info:
+  author: Ringo De Smet
+  description: Minimal macOS setup.
+  company: None
+
+  license: MIT
+
+  min_ansible_version: 2.2
+
+  platforms:
+    - name: MacOSX
+      versions:
+        - 'all'
+
+  galaxy_tags:
+    - raspberrypi
+    - kvm
+    - system
+    - configuration
+
+dependencies:
+  - role: elliotweiser.osx-command-line-tools

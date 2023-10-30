@@ -5,7 +5,7 @@
     - vars.yml
 
   roles:
-    - role: elliotweiser.osx-command-line-tools
+    - role: mac-minimal
     - role: geerlingguy.mac.homebrew
       tags: ["homebrew"]
     - role: geerlingguy.mac.mas
