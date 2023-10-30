@@ -7,7 +7,6 @@ homebrew_taps:
   - hashicorp/tap
   - pulumi/tap
   - updatecli/updatecli
-  - isen-ng/dotnet-sdk-versions
 
 homebrew_installed_packages:
   - antidote
@@ -34,8 +33,6 @@ homebrew_installed_packages:
   - starship
   - volta
   - watch
-  - hashicorp/tap/packer
-  - hashicorp/tap/terraform
   - pulumi/tap/pulumi
   - pulumi/tap/crd2pulumi
   - pulumi/tap/kube2pulumi
@@ -59,37 +56,7 @@ homebrew_cask_apps:
   - gitter
   - google-chrome
   - insomnia
-  - little-snitch
-  - micro-snitch
   - obsidian
-  - paragon-extfs
-  - raindropio
-  - raspberry-pi-imager
-  - setapp
-  - signal
-  - slack
-  - spotify
-  - surfshark
-  - telegram
-  - thunderbird
-  - vlc
-  - whatsapp
-  - zoom
-  - isen-ng/dotnet-sdk-versions/dotnet-sdk6-0-400
-  - isen-ng/dotnet-sdk-versions/dotnet-sdk7-0-200
-
-homebrew_cask_uninstalled_apps:
-  - ableton-live-lite
-  - dash
-  - garmin-express
-  - jetbrains-toolbox
-  - keybase
-  - microsoft-teams
-  - omnifocus
-  - viscosity
-  - visualvm
-  - vmware-fusion
-  - zoomus
 
 mas_email: ""
 mas_password: ""

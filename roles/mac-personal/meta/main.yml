@@ -21,9 +21,17 @@ dependencies:
   - role: geerlingguy.mac.homebrew
     vars:
       homebrew_cask_appdir: /Applications
+      homebrew_installed_packages:
+        - hashicorp/tap/packer
       homebrew_cask_apps:
         - balenaetcher
         - dropbox
+        - little-snitch
+        - micro-snitch
+        - paragon-extfs
+        - raspberry-pi-imager
         - trainerroad
       homebrew_cask_uninstalled_apps:
         - google-cloud-sdk
+        - isen-ng/dotnet-sdk-versions/dotnet-sdk6-0-400
+        - isen-ng/dotnet-sdk-versions/dotnet-sdk7-0-200
