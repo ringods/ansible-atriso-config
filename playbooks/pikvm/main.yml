@@ -1,5 +1,5 @@
 ---
-- hosts: all
+- hosts: kvm.home.atriso.be
   gather_facts: no
   pre_tasks:
     - name: Read & Write

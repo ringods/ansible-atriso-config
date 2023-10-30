@@ -1,0 +1,43 @@
+---
+galaxy_info:
+  author: Ringo De Smet
+  description: Common macOS setup for both MacBook Pro machines.
+  company: None
+
+  license: MIT
+
+  min_ansible_version: 2.2
+
+  platforms:
+    - name: MacOSX
+      versions:
+        - 'all'
+
+  galaxy_tags:
+    - osx
+    - configuration
+
+dependencies:
+  - role: geerlingguy.mac.homebrew
+    vars:
+      homebrew_taps:
+        - dagger/tap
+      homebrew_installed_packages:
+        - direnv
+        - dagger/tap/dagger
+      homebrew_uninstalled_packages:
+        - cfssl
+        - fzf
+        - dotnet
+        - pulumi/tap/tf2pulumi
+      homebrew_cask_appdir: /Applications
+      homebrew_cask_apps:
+        - 1password
+        - 1password-cli
+        - alfred
+        - clickup
+        - google-drive
+        - visual-studio-code
+        - warp
+      homebrew_cask_uninstalled_apps:
+        - iterm2

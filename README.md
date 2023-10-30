@@ -25,12 +25,12 @@ but went with a more purer Ansible driven setup similar to [geerlingguy/mac-dev-
 
 For the MacBook Pro laptops, use one of the following commands:
 
-* run `ansible-playbook playbooks/mac/main.yml --limit AtrisoBook2020 -K`
-* run `ansible-playbook playbooks/mac/main.yml --limit AtrisoBook2022 -K`
+* run `ansible-playbook playbooks/mac-personal/main.yml -K`
+* run `ansible-playbook playbooks/mac-work/main.yml -K`
 
 For the PiKVM, use the following command:
 
-* run `ansible-playbook playbooks/pikvm/main.yml --limit kvm.home.atriso.be --extra-vars @secrets.yml`
+* run `ansible-playbook playbooks/pikvm/main.yml --extra-vars @secrets.yml`
 
 The `secrets.yml` file contains a DNSimple API token created on the [DNSimple portal](https://dnsimple.com/dashboard).
 

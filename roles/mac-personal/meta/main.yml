@@ -1,7 +1,7 @@
 ---
 galaxy_info:
   author: Ringo De Smet
-  description: Minimal macOS setup.
+  description: Additional setup for my personal MacBook Pro
   company: None
 
   license: MIT
@@ -20,10 +20,10 @@ galaxy_info:
 dependencies:
   - role: geerlingguy.mac.homebrew
     vars:
-      homebrew_installed_packages:
-        - coreutils
-        - curl
-        - git
-        - git-lfs
-        - wget
-        - zsh
+      homebrew_cask_appdir: /Applications
+      homebrew_cask_apps:
+        - balenaetcher
+        - dropbox
+        - trainerroad
+      homebrew_cask_uninstalled_apps:
+        - google-cloud-sdk

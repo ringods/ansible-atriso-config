@@ -20,10 +20,10 @@ galaxy_info:
 dependencies:
   - role: geerlingguy.mac.homebrew
     vars:
-      homebrew_installed_packages:
-        - coreutils
-        - curl
-        - git
-        - git-lfs
-        - wget
-        - zsh
+      homebrew_cask_appdir: /Applications
+      homebrew_cask_apps:
+        - google-cloud-sdk
+      homebrew_cask_uninstalled_apps:
+        - balenaetcher
+        - dropbox
+        - trainerroad

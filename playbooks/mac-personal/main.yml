@@ -1,0 +1,18 @@
+---
+- hosts: AtrisoBook2020
+
+  vars_files:
+    - vars.yml
+
+  roles:
+    - role: mac-minimal
+    - role: mac-common
+    - role: mac-personal
+    #- role: geerlingguy.mac.homebrew
+    #  tags: ["homebrew"]
+    #- role: geerlingguy.mac.mas
+    #  when: mas_installed_apps
+    #  tags: ["appstore"]
+    # - role: geerlingguy.mac.dock
+    # - role: viasite-ansible.zsh
+    # - role: geerlingguy.dotfiles
