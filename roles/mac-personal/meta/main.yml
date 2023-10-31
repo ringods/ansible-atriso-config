@@ -35,3 +35,19 @@ dependencies:
         - google-cloud-sdk
         - isen-ng/dotnet-sdk-versions/dotnet-sdk6-0-400
         - isen-ng/dotnet-sdk-versions/dotnet-sdk7-0-200
+  - role: geerlingguy.mac.mas
+    vars:
+      mas_installed_apps:
+        - id: 824171161
+          name: "Affinity Designer"
+        - id: 406056744
+          name: "Evernote"
+        - id: 682658836
+          name: "GarageBand"
+        - id: 408981434
+          name: "iMovie"
+        - id: 899247664
+          name: "Testflight"
+      # mas_uninstalled_apps:
+      #   - id: 1482454543
+      #     name: "Twitter"

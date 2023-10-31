@@ -23,10 +23,45 @@ dependencies:
       homebrew_taps:
         - dagger/tap
         - hashicorp/tap
+        - homebrew/cask-drivers
+        - homebrew/cask-fonts
+        - homebrew/cask-versions
+        - buo/cask-upgrade
+        - pulumi/tap
+        - updatecli/updatecli
       homebrew_installed_packages:
+        - antidote
+        - asciidoctor
+        - awscli
+        - azure-cli
         - direnv
+        - exercism
+        - gh
+        - gnu-tar
+        - gnupg
+        - go
+        - graphviz
+        - gzip
+        - helm
+        - httpie
+        - hugo
+        - jq
+        - pinentry-mac
+        - plantuml
+        - poetry
+        - pre-commit
+        - protobuf
+        - pstree
+        - starship
+        - volta
+        - watch
         - dagger/tap/dagger
         - hashicorp/tap/terraform
+        - pulumi/tap/pulumi
+        - pulumi/tap/crd2pulumi
+        - pulumi/tap/kube2pulumi
+        - pulumi/tap/pulumictl
+        - updatecli/updatecli/updatecli
       homebrew_uninstalled_packages:
         - cfssl
         - fzf
@@ -38,7 +73,19 @@ dependencies:
         - 1password-cli
         - alfred
         - clickup
+        - corretto
+        - discord
+        - docker
+        - element
+        - elgato-stream-deck
+        - firefox
+        - focusrite-control
+        - font-roboto-mono-nerd-font
+        - gitter
+        - google-chrome
         - google-drive
+        - insomnia
+        - obsidian
         - raindropio
         - setapp
         - signal
@@ -65,3 +112,21 @@ dependencies:
         - visualvm
         - vmware-fusion
         - zoomus
+  - role: geerlingguy.mac.mas
+    vars:
+      mas_installed_apps:
+        - id: 409201541
+          name: "Pages"
+        - id: 409203825
+          name: "Numbers"
+        - id: 409183694
+          name: "Keynote"
+        - id: 403504866
+          name: "PCalc"
+        - id: 6444602274
+          name: "Ivory"
+        - id: 441258766
+          name: "Magnet"
+      # mas_uninstalled_apps:
+      #   - id: 1482454543
+      #     name: "Twitter"
