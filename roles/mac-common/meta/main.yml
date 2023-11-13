@@ -97,7 +97,6 @@ dependencies:
         - vlc
         - visual-studio-code
         - warp
-        - whatsapp
         - zoom
       homebrew_cask_uninstalled_apps:
         - ableton-live-lite
@@ -111,6 +110,7 @@ dependencies:
         - viscosity
         - visualvm
         - vmware-fusion
+        - whatsapp
         - zoomus
   - role: geerlingguy.mac.mas
     vars:
@@ -127,6 +127,8 @@ dependencies:
           name: "Ivory"
         - id: 441258766
           name: "Magnet"
+        - id: 310633997
+          name: "WhatsApp Messenger"
       # mas_uninstalled_apps:
       #   - id: 1482454543
       #     name: "Twitter"
