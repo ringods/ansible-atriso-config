@@ -21,10 +21,13 @@ dependencies:
   - role: geerlingguy.mac.homebrew
     vars:
       homebrew_installed_packages:
+        - ansible
+        - ansible-lint
         - coreutils
         - curl
         - git
         - git-lfs
+        - python-markupsafe
         - wget
         - zsh
   - role: geerlingguy.mac.mas
