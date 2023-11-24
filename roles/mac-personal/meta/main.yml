@@ -30,6 +30,7 @@ dependencies:
         - micro-snitch
         - paragon-extfs
         - raspberry-pi-imager
+        - responsively
         - trainerroad
       homebrew_cask_uninstalled_apps:
         - google-cloud-sdk
