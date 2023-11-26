@@ -93,7 +93,6 @@ dependencies:
         - spotify
         - surfshark
         - telegram
-        - thunderbird
         - vlc
         - visual-studio-code
         - warp
