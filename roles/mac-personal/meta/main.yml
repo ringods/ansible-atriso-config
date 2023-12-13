@@ -51,6 +51,3 @@ dependencies:
           name: "iMovie"
         - id: 899247664
           name: "Testflight"
-      # mas_uninstalled_apps:
-      #   - id: 1482454543
-      #     name: "Twitter"

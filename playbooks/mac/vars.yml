@@ -27,7 +27,6 @@ dockitems_remove:
   - Numbers
   - "System Settings"
   - OmniFocus
-  - Twitter
 
 dockitems_persist:
   - name: Launchpad
