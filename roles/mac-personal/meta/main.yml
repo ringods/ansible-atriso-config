@@ -22,6 +22,7 @@ dependencies:
     vars:
       homebrew_cask_appdir: /Applications
       homebrew_installed_packages:
+        - cilium-cli
         - hashicorp/tap/packer
       homebrew_cask_apps:
         - balenaetcher
