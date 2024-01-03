@@ -128,3 +128,5 @@ dependencies:
           name: "Magnet"
         - id: 310633997
           name: "WhatsApp Messenger"
+        - id: 966085870
+          name: "TickTick"
