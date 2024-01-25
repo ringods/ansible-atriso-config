@@ -35,6 +35,7 @@ dependencies:
         - responsively
         - thunderbird-beta
         - trainerroad
+        - zed
       homebrew_cask_uninstalled_apps:
         - google-cloud-sdk
         - thunderbird

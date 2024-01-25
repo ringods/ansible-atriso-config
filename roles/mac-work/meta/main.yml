@@ -39,6 +39,7 @@ dependencies:
         - paragon-extfs
         - raspberry-pi-imager
         - trainerroad
+        - zed
   # - role: geerlingguy.mac.mas
   #   vars:
   #     mas_uninstalled_apps:
