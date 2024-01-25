@@ -6,3 +6,4 @@ roles:
 
 collections:
   - name: geerlingguy.mac
+    version: 2.2.0
