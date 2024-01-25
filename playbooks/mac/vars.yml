@@ -1,8 +1,4 @@
 ---
-# Whether to install dockutil or not
-dockutil_install: true
-# Which homebrew cask to install for dockutil
-dockutil_homebrew_cask: hpedrorodrigues/tools/dockutil
 dockitems_remove_all: false
 dockitems_remove:
   - Mail
