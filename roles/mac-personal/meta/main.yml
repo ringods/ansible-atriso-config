@@ -29,6 +29,7 @@ dependencies:
       homebrew_cask_apps:
         - balenaetcher
         - dropbox
+        - libreoffice
         - little-snitch
         - micro-snitch
         - paragon-extfs

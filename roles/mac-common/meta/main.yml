@@ -34,6 +34,7 @@ dependencies:
         - asciidoctor
         - awscli
         - azure-cli
+        - d2
         - direnv
         - exercism
         - gh
