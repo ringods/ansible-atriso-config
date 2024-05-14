@@ -35,7 +35,7 @@ dependencies:
         - paragon-extfs
         - raspberry-pi-imager
         - responsively
-        - thunderbird-beta
+        - thunderbird@beta
         - trainerroad
         - zed
       homebrew_cask_uninstalled_apps:
