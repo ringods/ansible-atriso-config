@@ -82,7 +82,6 @@ dependencies:
         - firefox
         - focusrite-control
         - font-roboto-mono-nerd-font
-        - gitter
         - google-chrome
         - google-drive
         - insomnia
@@ -102,6 +101,7 @@ dependencies:
         - ableton-live-lite
         - dash
         - garmin-express
+        - gitter
         - iterm2
         - jetbrains-toolbox
         - keybase
