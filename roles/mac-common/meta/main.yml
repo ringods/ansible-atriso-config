@@ -66,7 +66,6 @@ dependencies:
       homebrew_uninstalled_packages:
         - cfssl
         - fzf
-        - dotnet
         - pulumi/tap/tf2pulumi
       homebrew_cask_appdir: /Applications
       homebrew_cask_apps:
