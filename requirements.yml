@@ -5,5 +5,7 @@ roles:
   - name: viasite-ansible.zsh
 
 collections:
+  - name: community.general
+    version: 8.4.0
   - name: geerlingguy.mac
     version: 3.0.0
