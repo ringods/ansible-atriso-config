@@ -84,6 +84,7 @@ dependencies:
         - google-chrome
         - google-drive
         - insomnia
+        - obs
         - obsidian
         - raindropio
         - setapp
