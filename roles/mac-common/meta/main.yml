@@ -57,7 +57,6 @@ dependencies:
         - volta
         - watch
         - dagger/tap/dagger
-        - hashicorp/tap/terraform
         - pulumi/tap/pulumi
         - pulumi/tap/crd2pulumi
         - pulumi/tap/kube2pulumi
@@ -67,6 +66,7 @@ dependencies:
         - cfssl
         - fzf
         - pulumi/tap/tf2pulumi
+        - hashicorp/tap/terraform
       homebrew_cask_appdir: /Applications
       homebrew_cask_apps:
         - 1password
