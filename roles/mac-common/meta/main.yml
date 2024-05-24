@@ -74,6 +74,7 @@ dependencies:
         - alfred
         - clickup
         - corretto
+        - deskpad
         - discord
         - docker
         - element
