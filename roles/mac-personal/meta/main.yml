@@ -35,12 +35,10 @@ dependencies:
         - paragon-extfs
         - raspberry-pi-imager
         - responsively
-        - thunderbird@beta
         - trainerroad
         - zed
       homebrew_cask_uninstalled_apps:
         - google-cloud-sdk
-        - thunderbird
         - isen-ng/dotnet-sdk-versions/dotnet-sdk6-0-400
         - isen-ng/dotnet-sdk-versions/dotnet-sdk7-0-200
   - role: geerlingguy.mac.mas
