@@ -45,7 +45,6 @@ dependencies:
         - gzip
         - helm
         - httpie
-        - hugo
         - jq
         - pinentry-mac
         - plantuml
@@ -63,10 +62,8 @@ dependencies:
         - pulumi/tap/pulumictl
         - updatecli/updatecli/updatecli
       homebrew_uninstalled_packages:
-        - cfssl
         - fzf
-        - pulumi/tap/tf2pulumi
-        - hashicorp/tap/terraform
+        - hugo
       homebrew_cask_appdir: /Applications
       homebrew_cask_apps:
         - 1password
