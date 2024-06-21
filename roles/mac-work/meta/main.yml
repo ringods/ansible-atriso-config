@@ -28,17 +28,11 @@ dependencies:
       homebrew_cask_appdir: /Applications
       homebrew_cask_apps:
         - google-cloud-sdk
+        - microsoft-teams
         - thunderbird
         - isen-ng/dotnet-sdk-versions/dotnet-sdk6-0-400
         - isen-ng/dotnet-sdk-versions/dotnet-sdk7-0-200
       homebrew_cask_uninstalled_apps:
-        - balenaetcher
-        - dropbox
-        - little-snitch
-        - micro-snitch
-        - paragon-extfs
-        - raspberry-pi-imager
-        - trainerroad
         - zed
   # - role: geerlingguy.mac.mas
   #   vars:
