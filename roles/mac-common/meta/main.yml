@@ -91,25 +91,18 @@ dependencies:
         - slack
         - spotify
         - surfshark
-        - telegram
         - vlc
         - visual-studio-code
         - warp
         - zoom
       homebrew_cask_uninstalled_apps:
-        - ableton-live-lite
         - dash
         - garmin-express
-        - gitter
         - iterm2
         - jetbrains-toolbox
-        - keybase
-        - microsoft-teams
         - omnifocus
-        - viscosity
-        - visualvm
+        - telegram
         - vmware-fusion
-        - whatsapp
         - zoomus
   - role: geerlingguy.mac.mas
     vars:
