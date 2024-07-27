@@ -55,7 +55,7 @@ dependencies:
         - protobuf
         - pstree
         - starship
-        - thunderbird
+        # - thunderbird
         - volta
         - watch
         - dagger/tap/dagger
