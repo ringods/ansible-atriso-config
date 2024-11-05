@@ -35,10 +35,10 @@ dependencies:
         - paragon-extfs
         - raspberry-pi-imager
         - responsively
-        - trainerroad
         - zed
       homebrew_cask_uninstalled_apps:
         - google-cloud-sdk
+        - trainerroad
         - isen-ng/dotnet-sdk-versions/dotnet-sdk6-0-400
         - isen-ng/dotnet-sdk-versions/dotnet-sdk7-0-200
   - role: geerlingguy.mac.mas
