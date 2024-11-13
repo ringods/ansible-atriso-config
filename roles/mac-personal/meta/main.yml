@@ -26,18 +26,23 @@ dependencies:
         - rustup
         - vercel-cli
         - hashicorp/tap/packer
+      homebrew_uninstalled_packages:
+        - podman
       homebrew_cask_apps:
         - balenaetcher
         - dropbox
         - libreoffice
         - little-snitch
         - micro-snitch
+        - orbstack
         - paragon-extfs
         - raspberry-pi-imager
         - responsively
         - zed
       homebrew_cask_uninstalled_apps:
+        - docker
         - google-cloud-sdk
+        - podman-desktop
         - trainerroad
         - isen-ng/dotnet-sdk-versions/dotnet-sdk6-0-400
         - isen-ng/dotnet-sdk-versions/dotnet-sdk7-0-200

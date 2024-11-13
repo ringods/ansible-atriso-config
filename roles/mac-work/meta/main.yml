@@ -27,6 +27,7 @@ dependencies:
         - hashicorp/tap/packer
       homebrew_cask_appdir: /Applications
       homebrew_cask_apps:
+        - docker
         - google-cloud-sdk
         - microsoft-teams
         - isen-ng/dotnet-sdk-versions/dotnet-sdk6-0-400

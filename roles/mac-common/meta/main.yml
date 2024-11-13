@@ -77,7 +77,6 @@ dependencies:
         - corretto
         - deskpad
         - discord
-        - docker
         - element
         - elgato-stream-deck
         - firefox
