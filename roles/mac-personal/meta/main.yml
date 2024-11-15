@@ -44,8 +44,6 @@ dependencies:
         - google-cloud-sdk
         - podman-desktop
         - trainerroad
-        - isen-ng/dotnet-sdk-versions/dotnet-sdk6-0-400
-        - isen-ng/dotnet-sdk-versions/dotnet-sdk7-0-200
   - role: geerlingguy.mac.mas
     vars:
       mas_installed_apps:
