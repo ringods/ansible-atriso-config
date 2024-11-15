@@ -93,6 +93,7 @@ dependencies:
         - slack
         - spotify
         - surfshark
+        - tidal
         - vlc
         - visual-studio-code
         - warp
