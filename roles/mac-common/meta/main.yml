@@ -26,7 +26,6 @@ dependencies:
         - hashicorp/tap
         - homebrew/cask-drivers
         - homebrew/cask-fonts
-        - homebrew/cask-versions
         - buo/cask-upgrade
         - pulumi/tap
         - updatecli/updatecli
