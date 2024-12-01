@@ -29,8 +29,6 @@ dependencies:
         - git-lfs
         - wget
         - zsh
-      homebrew_uninstalled_packages:
-        - python-markupsafe
   - role: geerlingguy.mac.mas
     vars:
       mas_installed_apps:
