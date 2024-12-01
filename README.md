@@ -19,7 +19,7 @@ but went with a more purer Ansible driven setup similar to [geerlingguy/mac-dev-
 
 * Install Ansible
 * clone this repo
-* run `ansible-galaxy install -r requirements.yml`
+* run `ansible-galaxy install -r requirements.yml --force`
 
 ## Usage
 
