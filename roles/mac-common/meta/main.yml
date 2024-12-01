@@ -24,8 +24,6 @@ dependencies:
         - dagger/tap
         - derailed/k9s
         - hashicorp/tap
-        - homebrew/cask-drivers
-        - homebrew/cask-fonts
         - buo/cask-upgrade
         - pulumi/tap
         - updatecli/updatecli
