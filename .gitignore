@@ -3,3 +3,4 @@ dependencies
 *.iso
 __pycache__
 secrets.yml
+.vscode
