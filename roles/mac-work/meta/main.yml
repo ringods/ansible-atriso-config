@@ -32,7 +32,6 @@ dependencies:
         - microsoft-teams
         - isen-ng/dotnet-sdk-versions/dotnet-sdk8-0-400
       homebrew_cask_uninstalled_apps:
-        - zed
         - isen-ng/dotnet-sdk-versions/dotnet-sdk7-0-200
         - isen-ng/dotnet-sdk-versions/dotnet-sdk6-0-400
   # - role: geerlingguy.mac.mas

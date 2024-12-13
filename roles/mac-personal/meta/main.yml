@@ -38,7 +38,6 @@ dependencies:
         - paragon-extfs
         - raspberry-pi-imager
         - responsively
-        - zed
       homebrew_cask_uninstalled_apps:
         - docker
         - google-cloud-sdk
