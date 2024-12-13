@@ -11,7 +11,7 @@ galaxy_info:
   platforms:
     - name: MacOSX
       versions:
-        - 'all'
+        - "all"
 
   galaxy_tags:
     - osx
@@ -79,6 +79,7 @@ dependencies:
         - firefox
         - focusrite-control
         - font-roboto-mono-nerd-font
+        - gitbutler
         - google-chrome
         - google-drive
         - insomnia
