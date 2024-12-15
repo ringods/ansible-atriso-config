@@ -41,6 +41,7 @@ dependencies:
       homebrew_cask_uninstalled_apps:
         - docker
         - google-cloud-sdk
+        - guitar-pro
         - podman-desktop
         - trainerroad
   - role: geerlingguy.mac.mas
