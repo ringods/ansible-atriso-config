@@ -38,12 +38,7 @@ dependencies:
         - paragon-extfs
         - raspberry-pi-imager
         - responsively
-      homebrew_cask_uninstalled_apps:
-        - docker
-        - google-cloud-sdk
-        - guitar-pro
-        - podman-desktop
-        - trainerroad
+      # homebrew_cask_uninstalled_apps:
   - role: geerlingguy.mac.mas
     vars:
       mas_installed_apps:

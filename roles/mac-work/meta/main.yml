@@ -31,9 +31,7 @@ dependencies:
         - google-cloud-sdk
         - microsoft-teams
         - isen-ng/dotnet-sdk-versions/dotnet-sdk8-0-400
-      homebrew_cask_uninstalled_apps:
-        - isen-ng/dotnet-sdk-versions/dotnet-sdk7-0-200
-        - isen-ng/dotnet-sdk-versions/dotnet-sdk6-0-400
+      # homebrew_cask_uninstalled_apps:
   # - role: geerlingguy.mac.mas
   #   vars:
   #     mas_uninstalled_apps:

@@ -95,15 +95,7 @@ dependencies:
         - zed
         - zoom
       homebrew_cask_uninstalled_apps:
-        - dash
-        - garmin-express
-        - iterm2
-        - jetbrains-toolbox
-        - omnifocus
-        - telegram
-        - vmware-fusion
         - warp
-        - zoomus
   - role: geerlingguy.mac.mas
     vars:
       mas_installed_apps:
