@@ -80,6 +80,7 @@ dependencies:
         - focusrite-control
         - font-roboto-mono-nerd-font
         - gitbutler
+        - ghostty
         - google-chrome
         - google-drive
         - insomnia
