@@ -62,9 +62,6 @@ dependencies:
         - pulumi/tap/kube2pulumi
         - pulumi/tap/pulumictl
         - updatecli/updatecli/updatecli
-      homebrew_uninstalled_packages:
-        - fzf
-        - hugo
       homebrew_cask_appdir: /Applications
       homebrew_cask_apps:
         - 1password
@@ -95,7 +92,6 @@ dependencies:
         - tidal
         - vlc
         - visual-studio-code
-        - warp
         - zed
         - zoom
       homebrew_cask_uninstalled_apps:
@@ -106,6 +102,7 @@ dependencies:
         - omnifocus
         - telegram
         - vmware-fusion
+        - warp
         - zoomus
   - role: geerlingguy.mac.mas
     vars:
