@@ -36,6 +36,7 @@ dependencies:
         - d2
         - direnv
         - exercism
+        - fastfetch
         - gh
         - gnu-tar
         - gnupg
