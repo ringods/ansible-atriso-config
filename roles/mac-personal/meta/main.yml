@@ -30,6 +30,8 @@ dependencies:
         - podman
       homebrew_cask_apps:
         - balenaetcher
+        - corretto@8
+        - corretto@11
         - dropbox
         - libreoffice
         - little-snitch
