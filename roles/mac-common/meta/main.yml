@@ -74,7 +74,6 @@ dependencies:
         - discord
         - element
         - elgato-stream-deck
-        - emclient
         - firefox
         - focusrite-control
         - font-roboto-mono-nerd-font
@@ -97,6 +96,7 @@ dependencies:
         - zed
         - zoom
       homebrew_cask_uninstalled_apps:
+        - emclient
         - warp
   - role: geerlingguy.mac.mas
     vars:
