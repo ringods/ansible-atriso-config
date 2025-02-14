@@ -49,14 +49,3 @@ dockitems_persist:
   - name: SQLPro Studio
     path: "/Applications/SetApp/SQLPro Studio.app"
     pos: 8
-
-dotfiles_repo: "https://github.com/ringods/dotfiles.git"
-dotfiles_repo_version: master
-dotfiles_repo_local_destination: "~/Projects/personal/dotfiles"
-dotfiles_repo_accept_hostkey: true
-dotfiles_home: "~"
-dotfiles_files:
-  - .gitconfig
-  - .gitignore
-  - .zshrc.local
-  - .zsh_plugins.txt

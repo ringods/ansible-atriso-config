@@ -1,5 +1,6 @@
 ---
-- hosts: AtrisoBook2020
+- name: Configure AtrisoBook2020
+  hosts: AtrisoBook2020
 
   vars_files:
     - vars.yml
@@ -8,9 +9,8 @@
     - role: mac-minimal
     - role: mac-common
     - role: mac-personal
-    #- role: geerlingguy.mac.mas
-    #  when: mas_installed_apps
-    #  tags: ["appstore"]
+    # - role: geerlingguy.mac.mas
+    #   when: mas_installed_apps
+    #   tags: ["appstore"]
     # - role: geerlingguy.mac.dock
     # - role: viasite-ansible.zsh
-    # - role: geerlingguy.dotfiles

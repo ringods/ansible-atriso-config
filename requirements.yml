@@ -2,8 +2,6 @@
 roles:
   - name: elliotweiser.osx-command-line-tools
     version: 2.3.0
-  - name: geerlingguy.dotfiles
-    version: 1.2.1
   - name: viasite-ansible.zsh
     version: v3.7.8
 
