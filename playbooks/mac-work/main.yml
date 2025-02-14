@@ -8,6 +8,9 @@
   vars:
     fish:
       set_default_shell: true
+      install_fisher: true
+      fisher_plugins:
+        - halostatue/fish-brew@v3
 
   roles:
     - role: mac-minimal
