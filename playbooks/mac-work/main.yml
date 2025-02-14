@@ -5,12 +5,16 @@
   vars_files:
     - vars.yml
 
+  vars:
+    fish:
+      set_default_shell: true
+
   roles:
     - role: mac-minimal
+    - role: pridkett.fish
     - role: mac-common
     - role: mac-work
     # - role: geerlingguy.mac.mas
     #   when: mas_installed_apps
     #   tags: ["appstore"]
     # - role: geerlingguy.mac.dock
-    # - role: viasite-ansible.zsh

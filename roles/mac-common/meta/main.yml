@@ -6,7 +6,7 @@ galaxy_info:
 
   license: MIT
 
-  min_ansible_version: 2.2
+  min_ansible_version: "2.2"
 
   platforms:
     - name: MacOSX
@@ -28,7 +28,6 @@ dependencies:
         - pulumi/tap
         - updatecli/updatecli
       homebrew_installed_packages:
-        - antidote
         - asciidoctor
         - awscli
         - azure-cli
@@ -53,7 +52,6 @@ dependencies:
         - protobuf
         - pstree
         - starship
-        # - thunderbird
         - volta
         - watch
         - dagger/tap/dagger
@@ -63,6 +61,8 @@ dependencies:
         - pulumi/tap/kube2pulumi
         - pulumi/tap/pulumictl
         - updatecli/updatecli/updatecli
+      homebrew_uninstalled_packages:
+        - antidote
       homebrew_cask_appdir: /Applications
       homebrew_cask_apps:
         - 1password

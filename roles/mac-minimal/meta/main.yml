@@ -6,7 +6,7 @@ galaxy_info:
 
   license: MIT
 
-  min_ansible_version: 2.2
+  min_ansible_version: "2.2"
 
   platforms:
     - name: MacOSX
@@ -28,6 +28,7 @@ dependencies:
         - git
         - git-lfs
         - wget
+      homebrew_uninstalled_packages:
         - zsh
   - role: geerlingguy.mac.mas
     vars:

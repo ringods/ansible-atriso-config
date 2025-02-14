@@ -2,8 +2,10 @@
 roles:
   - name: elliotweiser.osx-command-line-tools
     version: 2.3.0
-  - name: viasite-ansible.zsh
-    version: v3.7.8
+  - name: pridkett.fish
+    scm: git
+    src: https://github.com/pridkett/ansible-role-fish.git
+    version: master
 
 collections:
   - name: community.general
