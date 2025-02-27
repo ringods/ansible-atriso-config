@@ -90,6 +90,7 @@ dependencies:
         - slack
         - spotify
         - surfshark
+        - thunderbird
         - tidal
         - vlc
         - visual-studio-code
