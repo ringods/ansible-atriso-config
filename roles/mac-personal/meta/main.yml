@@ -11,7 +11,7 @@ galaxy_info:
   platforms:
     - name: MacOSX
       versions:
-        - 'all'
+        - "all"
 
   galaxy_tags:
     - osx
@@ -29,6 +29,9 @@ dependencies:
       homebrew_uninstalled_packages:
         - podman
       homebrew_cask_apps:
+        - affinity-designer
+        - affinity-photo
+        - affinity-publisher
         - balenaetcher
         - corretto@8
         - corretto@11
@@ -44,8 +47,6 @@ dependencies:
   - role: geerlingguy.mac.mas
     vars:
       mas_installed_apps:
-        - id: 824171161
-          name: "Affinity Designer"
         - id: 406056744
           name: "Evernote"
         - id: 682658836
