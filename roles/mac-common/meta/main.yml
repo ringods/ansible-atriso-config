@@ -91,14 +91,12 @@ dependencies:
         - spotify
         - surfshark
         - thunderbird
-        - tidal
         - vlc
         - visual-studio-code
         - zed
         - zoom
       homebrew_cask_uninstalled_apps:
-        - emclient
-        - warp
+        - tidal
   - role: geerlingguy.mac.mas
     vars:
       mas_installed_apps:
