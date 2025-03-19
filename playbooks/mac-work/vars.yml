@@ -22,7 +22,7 @@ dockitems_remove:
   - Pages
   - Numbers
   - "System Settings"
-  - OmniFocus
+  - "Canary Mail"
 
 dockitems_persist:
   - name: Launchpad
@@ -31,11 +31,11 @@ dockitems_persist:
   - name: Commander One
     path: "/Applications/SetApp/Commander One.app"
     pos: 2
-  - name: Canary Mail
-    path: "/Applications/SetApp/Canary Mail.app"
+  - name: Thunderbird
+    path: "/Applications/Thunderbird.app"
     pos: 3
   - name: Calendar
-    path: "/System/Applications/Calendar.app"
+    path: "/Applications/SetApp/BusyCal.app"
     pos: 4
   - name: Ivory
     path: "/Applications/Ivory.app"
@@ -46,6 +46,9 @@ dockitems_persist:
   - name: Visual Studio Code
     path: "/Applications/Visual Studio Code.app"
     pos: 7
+  - name: Zed
+    path: "/Applications/Zed.app"
+    pos: 8
   - name: SQLPro Studio
     path: "/Applications/SetApp/SQLPro Studio.app"
-    pos: 8
+    pos: 9

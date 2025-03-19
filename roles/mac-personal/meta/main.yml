@@ -55,3 +55,4 @@ dependencies:
           name: "iMovie"
         - id: 899247664
           name: "Testflight"
+  - role: geerlingguy.mac.dock

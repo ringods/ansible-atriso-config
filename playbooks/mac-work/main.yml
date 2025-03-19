@@ -17,7 +17,3 @@
     - role: pridkett.fish
     - role: mac-common
     - role: mac-work
-    # - role: geerlingguy.mac.mas
-    #   when: mas_installed_apps
-    #   tags: ["appstore"]
-    # - role: geerlingguy.mac.dock

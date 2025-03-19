@@ -1,0 +1,53 @@
+---
+dockitems_remove_all: false
+dockitems_remove:
+  - Mail
+  - Safari
+  - Siri
+  - Contacts
+  - Notes
+  - Reminders
+  - Maps
+  - Photos
+  - Messages
+  - FaceTime
+  - Music
+  - TV
+  - App Store
+  - System Preferences
+  - Calendar
+  - Terminal
+  - Podcasts
+  - Keynote
+  - Pages
+  - Numbers
+  - "System Settings"
+
+dockitems_persist:
+  - name: Launchpad
+    path: "/Applications/Launchpad.app"
+    pos: 1
+  - name: Commander One
+    path: "/Applications/SetApp/Commander One.app"
+    pos: 2
+  - name: Canary Mail
+    path: "/Applications/Thunderbird.app"
+    pos: 3
+  - name: Calendar
+    path: "/Applications/SetApp/BusyCal.app"
+    pos: 4
+  - name: Ivory
+    path: "/Applications/Ivory.app"
+    pos: 5
+  - name: ClickUp
+    path: "/Applications/ClickUp.app"
+    pos: 6
+  - name: Visual Studio Code
+    path: "/Applications/Visual Studio Code.app"
+    pos: 7
+  - name: Zed
+    path: "/Applications/Zed.app"
+    pos: 8
+  - name: SQLPro Studio
+    path: "/Applications/SetApp/SQLPro Studio.app"
+    pos: 9
