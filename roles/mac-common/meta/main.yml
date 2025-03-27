@@ -52,6 +52,7 @@ dependencies:
         - protobuf
         - pstree
         - starship
+        - uv
         - volta
         - watch
         - dagger/tap/dagger
