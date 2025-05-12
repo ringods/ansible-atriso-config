@@ -47,7 +47,6 @@ dependencies:
         - jq
         - pinentry-mac
         - plantuml
-        - poetry
         - pre-commit
         - protobuf
         - pstree
@@ -63,7 +62,12 @@ dependencies:
         - pulumi/tap/pulumictl
         - updatecli/updatecli/updatecli
       homebrew_uninstalled_packages:
-        - antidote
+        - maven
+        - gradle
+        - plantuml
+        - openjdk
+        - poetry
+        - python-setuptools
       homebrew_cask_appdir: /Applications
       homebrew_cask_apps:
         - 1password
