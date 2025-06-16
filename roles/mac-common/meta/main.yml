@@ -68,6 +68,7 @@ dependencies:
         - openjdk
         - poetry
         - python-setuptools
+        - goreleaser/tap/goreleaser
       homebrew_cask_appdir: /Applications
       homebrew_cask_apps:
         - 1password
