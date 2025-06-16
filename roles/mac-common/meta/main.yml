@@ -27,6 +27,7 @@ dependencies:
         - buo/cask-upgrade
         - pulumi/tap
         - updatecli/updatecli
+        - goreleaser/tap
       homebrew_installed_packages:
         - asciidoctor
         - awscli
@@ -68,7 +69,6 @@ dependencies:
         - openjdk
         - poetry
         - python-setuptools
-        - goreleaser/tap/goreleaser
       homebrew_cask_appdir: /Applications
       homebrew_cask_apps:
         - 1password
@@ -101,6 +101,7 @@ dependencies:
         - visual-studio-code
         - zed
         - zoom
+        - goreleaser/tap/goreleaser
       homebrew_cask_uninstalled_apps:
         - tidal
   - role: geerlingguy.mac.mas
