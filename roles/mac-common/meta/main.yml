@@ -92,7 +92,6 @@ dependencies:
         - obsidian
         - raindropio
         - setapp
-        - signal
         - slack
         - spotify
         - surfshark
@@ -103,7 +102,7 @@ dependencies:
         - zoom
         - goreleaser/tap/goreleaser
       homebrew_cask_uninstalled_apps:
-        - tidal
+        - signal
   - role: geerlingguy.mac.mas
     vars:
       mas_installed_apps:
@@ -119,5 +118,6 @@ dependencies:
           name: "Ivory"
         - id: 441258766
           name: "Magnet"
+      mas_uninstalled_apps:
         - id: 310633997
           name: "WhatsApp Messenger"
