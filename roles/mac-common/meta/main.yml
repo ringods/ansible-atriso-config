@@ -88,6 +88,7 @@ dependencies:
         - google-chrome
         - google-drive
         - insomnia
+        - jetbrains-toolbox
         - obs
         - obsidian
         - raindropio
