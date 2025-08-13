@@ -5,3 +5,4 @@ dependencies
 __pycache__
 secrets.yml
 .vscode
+.idea
