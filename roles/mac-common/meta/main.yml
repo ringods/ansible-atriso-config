@@ -46,6 +46,7 @@ dependencies:
         - helm
         - httpie
         - jq
+        - mise
         - pinentry-mac
         - plantuml
         - pre-commit
