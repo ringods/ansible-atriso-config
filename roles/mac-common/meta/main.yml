@@ -53,6 +53,7 @@ dependencies:
         - protobuf
         - pstree
         - starship
+        - terraform
         - uv
         - volta
         - watch
