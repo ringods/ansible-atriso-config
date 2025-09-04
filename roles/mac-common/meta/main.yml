@@ -40,7 +40,6 @@ dependencies:
         - gh
         - gnu-tar
         - gnupg
-        - go
         - graphviz
         - gzip
         - helm
@@ -67,6 +66,7 @@ dependencies:
       homebrew_uninstalled_packages:
         - maven
         - gradle
+        - go
         - plantuml
         - openjdk
         - poetry
