@@ -35,7 +35,6 @@ dependencies:
         - balenaetcher
         - corretto@8
         - corretto@11
-        - dropbox
         - libreoffice
         - little-snitch
         - micro-snitch
@@ -43,7 +42,7 @@ dependencies:
         - paragon-extfs
         - raspberry-pi-imager
         - responsively
-      # homebrew_cask_uninstalled_apps:
+#      homebrew_cask_uninstalled_apps:
   - role: geerlingguy.mac.mas
     vars:
       mas_installed_apps:
