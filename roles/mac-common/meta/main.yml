@@ -116,8 +116,8 @@ dependencies:
           name: "Keynote"
         - id: 403504866
           name: "PCalc"
-        - id: 6444602274
-          name: "Ivory"
+        - id: 1659154653
+          name: "Mona"
         - id: 441258766
           name: "Magnet"
       mas_uninstalled_apps:

@@ -33,21 +33,27 @@ dockitems_persist:
   - name: Canary Mail
     path: "/Applications/Thunderbird.app"
     pos: 3
-  - name: Calendar
+  - name: BusyCal
     path: "/Applications/SetApp/BusyCal.app"
     pos: 4
-  - name: Ivory
-    path: "/Applications/Ivory.app"
+  - name: Mona
+    path: "/Applications/Mona.app"
     pos: 5
   - name: ClickUp
     path: "/Applications/ClickUp.app"
     pos: 6
-  - name: Visual Studio Code
-    path: "/Applications/Visual Studio Code.app"
+  - name: GoLand
+    path: "/Users/ringods/Applications/GoLand.app"
     pos: 7
-  - name: Zed
-    path: "/Applications/Zed.app"
+  - name: PyCharm
+    path: "/Users/ringods/Applications/PyCharm.app"
     pos: 8
+  - name: RustRover
+    path: "/Users/ringods/Applications/RustRover.app"
+    pos: 9
+  - name: WebStorm
+    path: "/Users/ringods/Applications/WebStorm.app"
+    pos: 10
   - name: SQLPro Studio
     path: "/Applications/SetApp/SQLPro Studio.app"
-    pos: 9
+    pos: 11
