@@ -47,14 +47,12 @@ dependencies:
         - jq
         - mise
         - pinentry-mac
-        - plantuml
         - pre-commit
         - protobuf
         - pstree
         - starship
         - terraform
         - uv
-        - volta
         - watch
         - dagger/tap/dagger
         - derailed/k9s/k9s
@@ -71,6 +69,7 @@ dependencies:
         - openjdk
         - poetry
         - python-setuptools
+        - volta
       homebrew_cask_appdir: /Applications
       homebrew_cask_apps:
         - 1password
