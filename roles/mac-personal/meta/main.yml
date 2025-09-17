@@ -39,7 +39,6 @@ dependencies:
         - little-snitch
         - micro-snitch
         - orbstack
-        - paragon-extfs
         - raspberry-pi-imager
         - responsively
 #      homebrew_cask_uninstalled_apps:
