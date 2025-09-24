@@ -20,17 +20,13 @@ galaxy_info:
 dependencies:
   - role: geerlingguy.mac.homebrew
     vars:
-      homebrew_taps:
-        - isen-ng/dotnet-sdk-versions
+      # homebrew_taps:
       # homebrew_installed_packages:
-      homebrew_uninstalled_packages:
-        - hashicorp/tap/packer
+      # homebrew_uninstalled_packages:
       homebrew_cask_appdir: /Applications
       homebrew_cask_apps:
         - docker
         - google-cloud-sdk
         - microsoft-teams
-        - isen-ng/dotnet-sdk-versions/dotnet-sdk8-0-400
-      homebrew_cask_uninstalled_apps:
-        - isen-ng/dotnet-sdk-versions/dotnet-sdk7-0-400
+      # homebrew_cask_uninstalled_apps:
   - role: geerlingguy.mac.dock
