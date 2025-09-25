@@ -100,11 +100,10 @@ dependencies:
         - thunderbird
         - vlc
         - visual-studio-code
-        - zed
         - zoom
         - goreleaser/tap/goreleaser
       homebrew_cask_uninstalled_apps:
-        - signal
+        - zed
   - role: geerlingguy.mac.mas
     vars:
       mas_installed_apps:
