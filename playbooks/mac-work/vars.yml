@@ -22,7 +22,6 @@ dockitems_remove:
   - Pages
   - Numbers
   - "System Settings"
-  - "Canary Mail"
 
 dockitems_persist:
   - name: Launchpad
@@ -49,9 +48,12 @@ dockitems_persist:
   - name: PyCharm
     path: "/Users/ringods/Applications/PyCharm.app"
     pos: 8
+  - name: RustRover
+    path: "/Users/ringods/Applications/RustRover.app"
+    pos: 9
   - name: WebStorm
     path: "/Users/ringods/Applications/WebStorm.app"
-    pos: 9
+    pos: 10
   - name: SQLPro Studio
     path: "/Applications/SetApp/SQLPro Studio.app"
-    pos: 10
+    pos: 11

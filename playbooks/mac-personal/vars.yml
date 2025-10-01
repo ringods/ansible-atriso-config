@@ -30,7 +30,7 @@ dockitems_persist:
   - name: Commander One
     path: "/Applications/SetApp/Commander One.app"
     pos: 2
-  - name: Canary Mail
+  - name: Thunderbird
     path: "/Applications/Thunderbird.app"
     pos: 3
   - name: BusyCal

@@ -21,25 +21,13 @@ dependencies:
   - role: geerlingguy.mac.homebrew
     vars:
       homebrew_cask_appdir: /Applications
-      homebrew_installed_packages:
-        - cilium-cli
-        - rustup
-        - vercel-cli
-        - hashicorp/tap/packer
-      homebrew_uninstalled_packages:
-        - podman
+#      homebrew_installed_packages:
+#      homebrew_uninstalled_packages:
       homebrew_cask_apps:
-        - affinity-designer
-        - affinity-photo
-        - affinity-publisher
-        - balenaetcher
         - corretto@8
         - corretto@11
         - libreoffice
-        - little-snitch
-        - micro-snitch
         - orbstack
-        - raspberry-pi-imager
         - responsively
 #      homebrew_cask_uninstalled_apps:
   - role: geerlingguy.mac.mas
@@ -47,10 +35,4 @@ dependencies:
       mas_installed_apps:
         - id: 406056744
           name: "Evernote"
-        - id: 682658836
-          name: "GarageBand"
-        - id: 408981434
-          name: "iMovie"
-        - id: 899247664
-          name: "Testflight"
   - role: geerlingguy.mac.dock

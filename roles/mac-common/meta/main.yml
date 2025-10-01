@@ -33,6 +33,7 @@ dependencies:
         - awscli
         - azure-cli
         - chezmoi
+        - cilium-cli
         - d2
         - direnv
         - exercism
@@ -50,6 +51,7 @@ dependencies:
         - pre-commit
         - protobuf
         - pstree
+        - rustup
         - starship
         - terraform
         - uv
@@ -61,20 +63,16 @@ dependencies:
         - pulumi/tap/kube2pulumi
         - pulumi/tap/pulumictl
         - updatecli/updatecli/updatecli
-      homebrew_uninstalled_packages:
-        - maven
-        - gradle
-        - go
-        - plantuml
-        - openjdk
-        - poetry
-        - python-setuptools
-        - volta
+#      homebrew_uninstalled_packages:
       homebrew_cask_appdir: /Applications
       homebrew_cask_apps:
         - 1password
         - 1password-cli
+        - affinity-designer
+        - affinity-photo
+        - affinity-publisher
         - alfred
+        - balenaetcher
         - clickup
         - corretto
         - deskpad
@@ -90,8 +88,11 @@ dependencies:
         - google-drive
         - insomnia
         - jetbrains-toolbox
+        - little-snitch
+        - micro-snitch
         - obsidian
         - raindropio
+        - raspberry-pi-imager
         - setapp
         - slack
         - spotify
@@ -107,6 +108,12 @@ dependencies:
   - role: geerlingguy.mac.mas
     vars:
       mas_installed_apps:
+        - id: 682658836
+          name: "GarageBand"
+        - id: 408981434
+          name: "iMovie"
+        - id: 899247664
+          name: "Testflight"
         - id: 409201541
           name: "Pages"
         - id: 409203825
@@ -119,6 +126,4 @@ dependencies:
           name: "Mona"
         - id: 441258766
           name: "Magnet"
-      mas_uninstalled_apps:
-        - id: 310633997
-          name: "WhatsApp Messenger"
+#      mas_uninstalled_apps:
