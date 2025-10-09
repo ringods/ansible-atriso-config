@@ -89,6 +89,7 @@ dependencies:
         - insomnia
         - jetbrains-toolbox
         - little-snitch
+        - melodics
         - micro-snitch
         - obsidian
         - raindropio
@@ -101,10 +102,9 @@ dependencies:
         - vlc
         - visual-studio-code
         - zoom
-        - goreleaser/tap/goreleaser
       homebrew_cask_uninstalled_apps:
+        - goreleaser/tap/goreleaser
         - obs
-        - zed
   - role: geerlingguy.mac.mas
     vars:
       mas_installed_apps:
