@@ -53,6 +53,7 @@ dependencies:
         - pstree
         - rustup
         - starship
+        - talosctl
         - terraform
         - uv
         - watch
