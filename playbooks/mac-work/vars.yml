@@ -40,20 +40,23 @@ dockitems_persist:
     path: "/Applications/Mona.app"
     pos: 5
   - name: ClickUp
-    path: "/Applications/ClickUp.app"
+    path: "/Applications/OmniFocus.app"
     pos: 6
+  - name: ClickUp
+    path: "/Applications/ClickUp.app"
+    pos: 7
   - name: GoLand
     path: "/Users/ringods/Applications/GoLand.app"
-    pos: 7
+    pos: 8
   - name: PyCharm
     path: "/Users/ringods/Applications/PyCharm.app"
-    pos: 8
+    pos: 9
   - name: RustRover
     path: "/Users/ringods/Applications/RustRover.app"
-    pos: 9
+    pos: 10
   - name: WebStorm
     path: "/Users/ringods/Applications/WebStorm.app"
-    pos: 10
+    pos: 11
   - name: SQLPro Studio
     path: "/Applications/SetApp/SQLPro Studio.app"
-    pos: 11
+    pos: 12

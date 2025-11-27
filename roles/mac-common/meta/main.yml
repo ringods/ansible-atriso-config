@@ -93,6 +93,7 @@ dependencies:
         - melodics
         - micro-snitch
         - obsidian
+        - omnifocus
         - raindropio
         - raspberry-pi-imager
         - setapp
