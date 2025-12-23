@@ -60,11 +60,11 @@ dependencies:
         - dagger/tap/dagger
         - derailed/k9s/k9s
         - pulumi/tap/pulumi
-        - pulumi/tap/crd2pulumi
         - pulumi/tap/kube2pulumi
         - pulumi/tap/pulumictl
         - updatecli/updatecli/updatecli
-#      homebrew_uninstalled_packages:
+      homebrew_uninstalled_packages:
+        - pulumi/tap/crd2pulumi
       homebrew_cask_appdir: /Applications
       homebrew_cask_apps:
         - 1password
