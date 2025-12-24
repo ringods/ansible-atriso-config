@@ -36,11 +36,11 @@ dockitems_persist:
   - name: BusyCal
     path: "/Applications/SetApp/BusyCal.app"
     pos: 4
+  - name: OmniFocus
+    path: "/Applications/OmniFocus.app"
+    pos: 5
   - name: Mona
     path: "/Applications/Mona.app"
-    pos: 5
-  - name: ClickUp
-    path: "/Applications/ClickUp.app"
     pos: 6
   - name: GoLand
     path: "/Users/ringods/Applications/GoLand.app"
