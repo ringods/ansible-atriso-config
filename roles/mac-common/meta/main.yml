@@ -86,7 +86,6 @@ dependencies:
         - ghostty
         - google-chrome
         - google-drive
-        - insomnia
         - jetbrains-toolbox
         - little-snitch
         - melodics
@@ -104,8 +103,7 @@ dependencies:
         - visual-studio-code
         - zoom
       homebrew_cask_uninstalled_apps:
-        - clickup
-        - obs
+        - insomnia
   - role: geerlingguy.mac.mas
     vars:
       mas_installed_apps:
