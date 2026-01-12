@@ -25,7 +25,6 @@ dependencies:
         - derailed/k9s
         - hashicorp/tap
         - buo/cask-upgrade
-        - pulumi/tap
         - updatecli/updatecli
         - goreleaser/tap
       homebrew_installed_packages:
@@ -59,12 +58,12 @@ dependencies:
         - watch
         - dagger/tap/dagger
         - derailed/k9s/k9s
-        - pulumi/tap/pulumi
-        - pulumi/tap/kube2pulumi
-        - pulumi/tap/pulumictl
         - updatecli/updatecli/updatecli
       homebrew_uninstalled_packages:
         - pulumi/tap/crd2pulumi
+        - pulumi/tap/pulumi
+        - pulumi/tap/kube2pulumi
+        - pulumi/tap/pulumictl
       homebrew_cask_appdir: /Applications
       homebrew_cask_apps:
         - 1password
