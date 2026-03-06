@@ -31,6 +31,7 @@ dependencies:
         - asciidoctor
         - awscli
         - azure-cli
+        - block-goose-cli
         - chezmoi
         - cilium-cli
         - d2
@@ -73,6 +74,8 @@ dependencies:
         - affinity-publisher
         - alfred
         - balenaetcher
+        - block-goose
+        - cmake
         - corretto
         - deskpad
         - discord
