@@ -24,36 +24,36 @@ dockitems_remove:
   - "System Settings"
 
 dockitems_persist:
-  - name: Launchpad
-    path: "/Applications/Launchpad.app"
-    pos: 1
   - name: Commander One
     path: "/Applications/SetApp/Commander One.app"
-    pos: 2
+    pos: 1
   - name: Thunderbird
     path: "/Applications/Thunderbird.app"
-    pos: 3
+    pos: 2
   - name: BusyCal
     path: "/Applications/SetApp/BusyCal.app"
-    pos: 4
+    pos: 3
   - name: OmniFocus
     path: "/Applications/OmniFocus.app"
-    pos: 5
+    pos: 4
   - name: Mona
     path: "/Applications/Mona.app"
-    pos: 6
+    pos: 5
   - name: GoLand
     path: "/Users/ringods/Applications/GoLand.app"
-    pos: 7
+    pos: 6
   - name: PyCharm
     path: "/Users/ringods/Applications/PyCharm.app"
-    pos: 8
+    pos: 7
   - name: RustRover
     path: "/Users/ringods/Applications/RustRover.app"
-    pos: 9
+    pos: 8
   - name: WebStorm
     path: "/Users/ringods/Applications/WebStorm.app"
-    pos: 10
+    pos: 9
   - name: SQLPro Studio
     path: "/Applications/SetApp/SQLPro Studio.app"
+    pos: 10
+  - name: GitButler
+    path: "/Applications/GitButler.app"
     pos: 11
