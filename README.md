@@ -25,7 +25,6 @@ but went with a more purer Ansible driven setup similar to [geerlingguy/mac-dev-
 
 For the MacBook Pro laptops, use one of the following commands:
 
-* run `ansible-playbook playbooks/mac-personal/main.yml -K`
 * run `ansible-playbook playbooks/mac-work/main.yml -K`
 
 For the PiKVM, use the following command:
