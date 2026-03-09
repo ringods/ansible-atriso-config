@@ -96,6 +96,7 @@ dependencies:
         - omnifocus
         - raindropio
         - raspberry-pi-imager
+        - responsively
         - setapp
         - slack
         - spotify
@@ -103,9 +104,9 @@ dependencies:
         - thunderbird
         - vlc
         - visual-studio-code
+        - zed
         - zoom
-      homebrew_cask_uninstalled_apps:
-        - insomnia
+#      homebrew_cask_uninstalled_apps:
   - role: geerlingguy.mac.mas
     vars:
       mas_installed_apps:
