@@ -2,6 +2,8 @@
 roles:
   - name: elliotweiser.osx-command-line-tools
     version: 2.3.0
+  - name: geerlingguy.mysql
+    version: 6.3.1
   - name: pridkett.fish
     scm: git
     src: https://github.com/pridkett/ansible-role-fish.git
@@ -9,6 +11,6 @@ roles:
 
 collections:
   - name: community.general
-    version: 12.2.0
+    version: 12.4.0
   - name: geerlingguy.mac
     version: 5.0.0
