@@ -35,7 +35,6 @@ dependencies:
         - chezmoi
         - cilium-cli
         - d2
-        - direnv
         - exercism
         - fastfetch
         - gh
@@ -61,6 +60,7 @@ dependencies:
         - derailed/k9s/k9s
         - updatecli/updatecli/updatecli
       homebrew_uninstalled_packages:
+        - direnv
         - pulumi/tap/crd2pulumi
         - pulumi/tap/pulumi
         - pulumi/tap/kube2pulumi
