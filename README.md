@@ -33,7 +33,13 @@ For the PiKVM, use the following command:
 
 The `secrets.yml` file contains a DNSimple API token created on the [DNSimple portal](https://dnsimple.com/dashboard).
 
-The ssh keys can be found in 1Password.
+The ssh keys can be found in 1Password and are configured via the 1Password SSH Agent.
+
+For other ad-hoc server, use the following command pattern:
+
+* run `ansible-playbook playbook/<name>/main.yaml <args>`
+
+The playbook must be configured to run against the correct hosts from the inventory.
 
 ## Needs automation
 
