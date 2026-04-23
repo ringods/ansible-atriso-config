@@ -26,6 +26,7 @@ dependencies:
         - hashicorp/tap
         - buo/cask-upgrade
         - updatecli/updatecli
+        - git-pkgs/git-pkgs
         - goreleaser/tap
       homebrew_installed_packages:
         - asciidoctor
@@ -37,7 +38,6 @@ dependencies:
         - d2
         - exercism
         - fastfetch
-        - gh
         - gnu-tar
         - gnupg
         - graphviz
@@ -58,13 +58,11 @@ dependencies:
         - watch
         - dagger/tap/dagger
         - derailed/k9s/k9s
+        - git-pkgs/git-pkgs/forge
         - updatecli/updatecli/updatecli
       homebrew_uninstalled_packages:
         - direnv
-        - pulumi/tap/crd2pulumi
-        - pulumi/tap/pulumi
-        - pulumi/tap/kube2pulumi
-        - pulumi/tap/pulumictl
+        - gh
       homebrew_cask_appdir: /Applications
       homebrew_cask_apps:
         - 1password
