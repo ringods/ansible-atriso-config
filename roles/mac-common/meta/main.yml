@@ -84,7 +84,6 @@ dependencies:
         - font-roboto-mono-nerd-font
         - gitbutler
         - ghostty
-        - google-chrome
         - google-drive
         - jetbrains-toolbox
         - little-snitch
@@ -104,7 +103,8 @@ dependencies:
         - visual-studio-code
         - zed
         - zoom
-#      homebrew_cask_uninstalled_apps:
+      homebrew_cask_uninstalled_apps:
+        - google-chrome
   - role: geerlingguy.mac.mas
     vars:
       mas_installed_apps:
