@@ -72,6 +72,8 @@ dependencies:
         - affinity-publisher
         - alfred
         - balenaetcher
+        - beid-token
+        - beid-viewer
         - block-goose
         - cmake
         - corretto
