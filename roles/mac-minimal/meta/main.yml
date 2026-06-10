@@ -28,8 +28,7 @@ dependencies:
         - git
         - git-lfs
         - wget
-      homebrew_uninstalled_packages:
-        - zsh
+#      homebrew_uninstalled_packages:
   - role: geerlingguy.mac.mas
     vars:
       mas_installed_apps:

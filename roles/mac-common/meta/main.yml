@@ -60,9 +60,7 @@ dependencies:
         - derailed/k9s/k9s
         - git-pkgs/git-pkgs/forge
         - updatecli/updatecli/updatecli
-      homebrew_uninstalled_packages:
-        - direnv
-        - gh
+#      homebrew_uninstalled_packages:
       homebrew_cask_appdir: /Applications
       homebrew_cask_apps:
         - 1password
